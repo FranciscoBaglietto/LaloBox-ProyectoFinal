@@ -1,0 +1,30 @@
+
+.cabecera{
+    background-color: black;
+
+    .cabecera__logo{
+        width: 5rem;
+        margin-left: 20px;
+    }
+
+
+    .navegador{
+        margin-right: 10px;
+
+        .navbar-nav{
+            text-align: center;
+
+            .nav-link{
+                font-size: 18px;
+                color: white !important;
+                font-family: museosans-300;
+                transition: transform 1s;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+        }  
+     }
+}
