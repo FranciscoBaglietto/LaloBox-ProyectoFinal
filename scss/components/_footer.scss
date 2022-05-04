@@ -1,0 +1,11 @@
+.footer{
+    background-color: black;
+
+    .secciones {
+        color: map-get($color, color-principal);
+
+        &__footer{
+            color: map-get($color, color-secundario);
+        }
+    }
+}

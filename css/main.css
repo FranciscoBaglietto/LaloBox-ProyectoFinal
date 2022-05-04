@@ -77,3 +77,10 @@
     width: fit-content;
     margin: 0 auto;
     transition: transform 1s; }
+
+.footer {
+  background-color: black; }
+  .footer .secciones {
+    color: white; }
+    .footer .secciones__footer {
+      color: #FECF07; }
