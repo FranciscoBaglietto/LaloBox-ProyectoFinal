@@ -6,6 +6,22 @@
   font-family: museosans-300;
   src: url(../../tipografias/MuseoSans-300.otf); }
 
+@font-face {
+  font-family: jersey_m54;
+  src: url(./tipografias/Jersey_M54[1].ttf); }
+
+@font-face {
+  font-family: museosans_500;
+  src: url(./tipografias/MuseoSans_500_Italic.otf); }
+
+@font-face {
+  font-family: museosans_100;
+  src: url(./tipografias/MuseoSans-100.otf); }
+
+@font-face {
+  font-family: museosans_900;
+  src: url(./tipografias/MuseoSans_1.otf); }
+
 .cabecera {
   background-color: black; }
   .cabecera .cabecera__logo {
@@ -22,3 +38,42 @@
         transition: transform 1s; }
         .cabecera .navegador .navbar-nav .nav-link:hover {
           transform: scale(1.1); }
+
+.main__inicio {
+  background-image: url(../../imagen/imageninicio2.jpg);
+  height: 50rem;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  overflow: hidden; }
+  .main__inicio .sticker {
+    width: 30rem;
+    position: relative;
+    margin-top: -15rem; }
+  .main__inicio .inicio__texto1 {
+    font-size: 35px;
+    color: white;
+    margin: 0rem 0rem 5rem 0rem;
+    font-family: jersey_m54; }
+  .main__inicio .inicio__texto2 {
+    font-size: 51px;
+    color: white;
+    font-family: jersey_m54;
+    padding-bottom: 50px; }
+  .main__inicio .inicio__texto3 {
+    text-decoration: none;
+    color: white !important;
+    /*No me deja igual que el Nav*/
+    font-size: 25px;
+    background-color: #FECF07;
+    padding: 4px 10px;
+    border-radius: 10px; }
+  .main__inicio .inicio__boton:hover {
+    transform: scale(1.2); }
+  .main__inicio .inicio__boton {
+    width: fit-content;
+    margin: 0 auto;
+    transition: transform 1s; }

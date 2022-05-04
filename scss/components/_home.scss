@@ -1,0 +1,49 @@
+.main__inicio{
+    background-image: url(../../imagen/imageninicio2.jpg);
+    height: 50rem;
+    object-fit:cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    overflow: hidden;
+
+    .sticker{
+        width: 30rem;
+        position: relative;
+        margin-top: -15rem;
+    }
+
+    .inicio__texto1{
+        font-size: 35px;
+        color: map-get($color, color-principal);
+        margin: 0rem 0rem 5rem 0rem;
+        font-family: jersey_m54;
+    }
+
+    .inicio__texto2{
+        font-size: 51px;
+        color: map-get($color, color-principal);
+        font-family: jersey_m54;
+        padding-bottom: 50px;
+    }
+
+    .inicio__texto3{
+        text-decoration: none;
+        color: map-get($color, color-principal) !important; /*No me deja igual que el Nav*/
+        font-size: 25px;
+        background-color: map-get($color, color-secundario);
+        padding: 4px 10px;
+        border-radius: 10px;
+
+    }
+    .inicio__boton:hover{
+        transform: scale(1.2);
+    }
+    .inicio__boton{
+        width: fit-content;
+        margin: 0 auto;
+        transition: transform 1s;
+    }
+}
