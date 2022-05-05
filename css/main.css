@@ -86,12 +86,39 @@
     height: fit-content;
     margin-left: fit-content;
     margin-top: -5px; }
-  .main__nosotros .nosotros__contenedor .nosotros__titulo {
-    color: #FECF07;
-    font-family: museosans_900; }
-    .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
-      font-family: museosans_100;
-      margin-left: 1rem; }
+  .main__nosotros .nosotros__contenedor {
+    position: relative; }
+    .main__nosotros .nosotros__contenedor .nosotros__titulo {
+      color: #FECF07;
+      font-family: museosans_900;
+      border-bottom: 4px solid;
+      position: absolute;
+      top: 4%; }
+      .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
+        font-family: museosans_100;
+        margin-left: 1rem;
+        position: absolute;
+        top: 25%; }
+    .main__nosotros .nosotros__contenedor .nosotros__compromiso {
+      width: fit-content;
+      position: absolute;
+      top: 50%;
+      left: 10%; }
+    .main__nosotros .nosotros__contenedor .nosotros__calidad {
+      width: fit-content;
+      position: absolute;
+      top: 50%;
+      right: 30%; }
+    .main__nosotros .nosotros__contenedor .nosotros__fabrica {
+      width: fit-content;
+      position: absolute;
+      top: 70%;
+      left: 10%; }
+    .main__nosotros .nosotros__contenedor .nosotros__entrega {
+      width: fit-content;
+      position: absolute;
+      top: 70%;
+      right: 30%; }
 
 .nosotros__imagen--compromiso {
   width: 5rem;
@@ -110,7 +137,7 @@
 .nosotros__text--calidad {
   font-family: museosans_500;
   align-items: center;
-  margin: 0rem;
+  margin: 5px 15px;
   align-self: center; }
 
 .nosotros__imagen--fabrica {

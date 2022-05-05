@@ -7,20 +7,55 @@
         margin-left: fit-content;
         margin-top: -5px;
     }
-    .nosotros__contenedor{
-    
-        .nosotros__titulo{
+        .nosotros__contenedor{
+            position: relative;
+            
+            .nosotros__titulo{
              color: map-get($color, color-secundario);
              font-family: museosans_900;
-                
+             border-bottom: 4px solid;
+             position: absolute;
+             top: 4%;
+
                 
                 
                 &--texto{
                     font-family: museosans_100 ;
                     margin-left: 1rem;
+                    position: absolute;
+                    top: 25%;
                 }
             }
             
+
+            .nosotros__compromiso{
+                width: fit-content;
+                position: absolute;
+                top: 50%;
+                left: 10%;
+            }
+
+            .nosotros__calidad{
+                width: fit-content;
+                position: absolute;
+                top: 50%;
+                right: 30%;
+            }
+
+            .nosotros__fabrica{
+                width: fit-content;
+                position: absolute;
+                top: 70%;
+                left: 10%;
+            }
+
+            .nosotros__entrega{
+                width: fit-content;
+                position: absolute;
+                top: 70%;
+                right: 30%;
+            }
+
         }
 
 
@@ -51,12 +86,13 @@
         width: 5rem;
         height: 5rem;
         align-self: center;
+        
     }
     
     .nosotros__text--calidad{
         font-family: museosans_500;
         align-items: center;
-        margin: 0rem ;
+        margin: 5px 15px ;
         align-self: center;
         
     }
