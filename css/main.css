@@ -93,11 +93,14 @@
       font-family: museosans_900;
       border-bottom: 4px solid;
       position: absolute;
-      top: 4%; }
+      top: 4%;
+      left: 5%; }
       .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
         font-family: museosans_100;
+        font-size: 24px;
         margin-left: 1rem;
         position: absolute;
+        left: 5%;
         top: 25%; }
     .main__nosotros .nosotros__contenedor .nosotros__compromiso {
       width: fit-content;

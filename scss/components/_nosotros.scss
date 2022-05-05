@@ -16,13 +16,16 @@
              border-bottom: 4px solid;
              position: absolute;
              top: 4%;
+             left: 5%;
 
                 
                 
                 &--texto{
                     font-family: museosans_100 ;
+                    font-size: 24px;
                     margin-left: 1rem;
                     position: absolute;
+                    left: 5%;
                     top: 25%;
                 }
             }
@@ -113,4 +116,5 @@
     .nosotros__text--entrega{
         align-self: center;
         font-family: museosans_500;
+        
     } 
