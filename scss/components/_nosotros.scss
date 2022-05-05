@@ -1,0 +1,80 @@
+.main__nosotros{
+    overflow: hidden;
+
+    .img-fluid{
+        width: fit-content;
+        height: fit-content;
+        margin-left: fit-content;
+        margin-top: -5px;
+    }
+    .nosotros__contenedor{
+    
+        .nosotros__titulo{
+             color: map-get($color, color-secundario);
+             font-family: museosans_900;
+                
+                
+                
+                &--texto{
+                    font-family: museosans_100 ;
+                    margin-left: 1rem;
+                }
+            }
+            
+        }
+
+
+}
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+    .nosotros__imagen--compromiso{
+        width: 5rem;
+        height: 5rem;
+        align-self: center;
+    }
+    .nosotros__text--compromiso{
+        font-family: museosans_500;
+        align-self: center;
+    }
+    .nosotros__imagen--calidad{
+        width: 5rem;
+        height: 5rem;
+        align-self: center;
+    }
+    
+    .nosotros__text--calidad{
+        font-family: museosans_500;
+        align-items: center;
+        margin: 0rem ;
+        align-self: center;
+        
+    }
+    .nosotros__imagen--fabrica{
+        width: 5rem;
+        height: 5rem;
+        align-self: center;
+    }
+    .nosotros__text--fabrica{
+        align-self: center;
+        font-family: museosans_500;
+    }
+    .nosotros__imagen--entrega{
+        width: 5rem;
+        height: 5rem;
+        align-self: center;
+    }
+    .nosotros__text--entrega{
+        align-self: center;
+        font-family: museosans_500;
+    } 
