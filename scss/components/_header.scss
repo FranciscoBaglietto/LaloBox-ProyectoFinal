@@ -16,7 +16,7 @@
 
             .nav-link{
                 font-size: 18px;
-                color: white !important;
+                color: map-get($color, color-principal) !important;
                 font-family: museosans-300;
                 transition: transform 1s;
 

@@ -51,8 +51,8 @@
   overflow: hidden; }
   .main__inicio .sticker {
     width: 30rem;
-    position: relative;
-    margin-top: -15rem; }
+    margin-top: -15rem;
+    height: 100%; }
   .main__inicio .inicio__texto1 {
     font-size: 35px;
     color: white;
@@ -67,10 +67,11 @@
     text-decoration: none;
     color: white !important;
     /*No me deja igual que el Nav*/
-    font-size: 25px;
+    font-size: 24px;
     background-color: #FECF07;
     padding: 4px 10px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    font-family: museosans_900; }
   .main__inicio .inicio__boton:hover {
     transform: scale(1.2); }
   .main__inicio .inicio__boton {

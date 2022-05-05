@@ -11,8 +11,8 @@
 
     .sticker{
         width: 30rem;
-        position: relative;
         margin-top: -15rem;
+        height: 100%;
     }
 
     .inicio__texto1{
@@ -32,10 +32,11 @@
     .inicio__texto3{
         text-decoration: none;
         color: map-get($color, color-principal) !important; /*No me deja igual que el Nav*/
-        font-size: 25px;
+        font-size: 24px;
         background-color: map-get($color, color-secundario);
         padding: 4px 10px;
         border-radius: 10px;
+        font-family: museosans_900;
 
     }
     .inicio__boton:hover{
