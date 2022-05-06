@@ -84,7 +84,7 @@
   overflow: hidden; }
   .main__nosotros .img-fluid {
     width: fit-content;
-    height: fit-content;
+    height: 100%;
     margin-left: fit-content;
     margin-top: -5px; }
   .main__nosotros .nosotros__contenedor .nosotros__titulo {
