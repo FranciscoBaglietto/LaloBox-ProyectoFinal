@@ -84,9 +84,9 @@
   overflow: hidden; }
   .main__nosotros .img-fluid {
     width: fit-content;
-    height: 100%;
+    height: auto;
     margin-left: fit-content;
-    margin-top: -5px; }
+    margin-top: -3px; }
   .main__nosotros .nosotros__contenedor .nosotros__titulo {
     color: #FECF07;
     font-family: museosans_900;

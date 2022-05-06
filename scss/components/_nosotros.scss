@@ -4,9 +4,10 @@
 
     .img-fluid{
         width: fit-content;
-        height: 100%;
+        height: auto;
         margin-left: fit-content;
-        margin-top: -5px;
+        margin-top: -3px;
+        
     }
         .nosotros__contenedor{
             
@@ -34,7 +35,7 @@
             .contenedor__compromiso{
                 gap: 20%;
                 margin-top: 10%;
-                
+
                 .nosotros__compromiso{
                     width: fit-content;
 
