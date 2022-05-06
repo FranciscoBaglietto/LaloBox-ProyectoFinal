@@ -35,7 +35,7 @@
       text-align: center; }
       .cabecera .navegador .navbar-nav .nav-link {
         font-size: 18px;
-        color: white !important;
+        color: #F6F6F6 !important;
         font-family: museosans-300;
         margin-left: 10px;
         transition: transform 1s; }
@@ -58,19 +58,19 @@
     height: 100%; }
   .main__inicio .inicio__texto1 {
     font-size: 35px;
-    color: white;
+    color: #F6F6F6;
     margin: 4.5rem 0rem 3rem 0rem;
     font-family: jersey_m54;
     text-shadow: -2px 0px 4px black; }
   .main__inicio .inicio__texto2 {
     font-size: 51px;
-    color: white;
+    color: #F6F6F6;
     font-family: jersey_m54;
     padding-bottom: 40px;
     text-shadow: -2px 0px 4px black; }
   .main__inicio .inicio__texto3 {
     text-decoration: none;
-    color: white !important;
+    color: #F6F6F6 !important;
     /*No me deja igual que el Nav*/
     font-size: 18px;
     text-shadow: -1px 0px 4px black;
@@ -175,6 +175,17 @@
 .footer {
   background-color: black; }
   .footer .secciones {
-    color: white; }
-    .footer .secciones__footer {
-      color: #FECF07; }
+    margin-top: 2%;
+    margin-left: 10px; }
+    .footer .secciones .contenedor__correo .imagen__correo {
+      width: 35px;
+      height: 35px; }
+    .footer .secciones .contenedor__correo .correo__texto {
+      color: #F6F6F6;
+      text-align: center;
+      margin-top: 5px;
+      margin-left: 5px; }
+    .footer .secciones .contenedor__redes .redes {
+      margin-right: 5px; }
+    .footer .secciones .secciones__paginas a {
+      flex-direction: column; }

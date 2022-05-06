@@ -1,11 +1,34 @@
 .footer{
     background-color: black;
 
-    .secciones {
-        color: map-get($color, color-principal);
+    .secciones{
 
-        &__footer{
-            color: map-get($color, color-secundario);
+        margin-top: 2%;
+        margin-left: 10px;
+
+        .contenedor__correo{
+
+            .imagen__correo{
+                width: 35px;
+                height: 35px;
+            }
+            .correo__texto{
+                color: #F6F6F6;
+                text-align: center;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+        }
+
+
+        .contenedor__redes {
+            .redes{
+                margin-right: 5px;
+            }
+        }
+        
+        .secciones__paginas a{
+            flex-direction: column;
         }
     }
 }
