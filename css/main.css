@@ -80,6 +80,7 @@
     transition: transform 1s; }
 
 .main__nosotros {
+  background-color: #F6F6F6;
   overflow: hidden; }
   .main__nosotros .img-fluid {
     width: fit-content;
@@ -99,26 +100,27 @@
       margin-top: 10%; }
   .main__nosotros .nosotros__contenedor .contenedor__compromiso {
     gap: 20%;
-    margin-top: 17%; }
+    margin-top: 10%; }
     .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__compromiso {
       width: fit-content; }
       .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__compromiso .nosotros__imagen--compromiso {
-        width: 5rem;
-        height: 5rem;
+        width: 8rem;
+        height: 8rem;
         align-self: center; }
       .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__compromiso .nosotros__text--compromiso {
         font-family: museosans_500;
+        font-size: 23px;
         align-self: center; }
     .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__calidad {
       width: fit-content; }
       .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__calidad .nosotros__imagen--calidad {
-        width: 5rem;
-        height: 5rem;
+        width: 8rem;
+        height: 8rem;
         align-self: center; }
       .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__calidad .nosotros__text--calidad {
         font-family: museosans_500;
-        align-items: center;
-        margin: 5px 15px;
+        font-size: 23px;
+        margin: 15px 5px 15px 30px;
         align-self: center; }
   .main__nosotros .nosotros__contenedor .contenedor__fabrica {
     gap: 20%;
@@ -126,21 +128,23 @@
     .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__fabrica {
       width: fit-content; }
       .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__fabrica .nosotros__imagen--fabrica {
-        width: 5rem;
-        height: 5rem;
+        width: 8rem;
+        height: 8rem;
         align-self: center; }
       .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__fabrica .nosotros__text--fabrica {
         align-self: center;
+        font-size: 23px;
         font-family: museosans_500; }
     .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__entrega {
       width: fit-content; }
       .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__entrega .nosotros__imagen--entrega {
-        width: 5rem;
-        height: 5rem;
+        width: 8rem;
+        height: 8rem;
         align-self: center; }
       .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__entrega .nosotros__text--entrega {
         align-self: center;
-        font-family: museosans_500; }
+        font-family: museosans_500;
+        font-size: 23px; }
 
 .footer {
   background-color: black; }
