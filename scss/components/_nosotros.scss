@@ -15,18 +15,20 @@
             .nosotros__titulo{
              color: map-get($color, color-secundario);
              font-family: museosans_900;
+             font-size: 24.73px;
              border-bottom: 4px solid;
              width: fit-content;
-             margin-top: 20px;
+             margin-top: 10%;
+             margin-left: 10%;
              
 
                 
                 
                 &--texto{
                     font-family: museosans_100 ;
-                    font-size: 24px;
-                    margin-left: 5%;
-                    margin-top: 10%;
+                    font-size: 20px;
+                    margin-left: 10%;
+                    margin-top: 25%;
                     
                 }
             }
@@ -34,31 +36,39 @@
 
             .contenedor__compromiso{
                 gap: 20%;
-                margin-top: 10%;
+                margin-top: 1%;
 
                 .nosotros__compromiso{
                     width: fit-content;
+                    display: flex;
+                    margin-top: 10%;
 
                     .nosotros__imagen--compromiso{
-                         width: 8rem;
-                         height: 8rem;
-                         align-self: center;
+                        width: 60px;
+                        height: 60px;
+                        align-self: center;
                     }
                     .nosotros__text--compromiso{
                            font-family: museosans_500;
-                           font-size: 23px;
+                           font-size: 18px;
                            align-self: center;
                            text-align: center;
+                           margin-top: 20px;
                     }
                     
                 }
                 
                 .nosotros__calidad{
                     width: fit-content;
+                    display: flex;
+                    margin-top: 10%;
+                    margin-left: 0%;
+                    margin-right: 10%;
+                    
 
                     .nosotros__imagen--calidad{
-                        width: 8rem;
-                        height: 8rem;
+                        width: 60px;
+                        height: 60px;
                         align-self: center;
                         
                         
@@ -66,9 +76,10 @@
                     
                     .nosotros__text--calidad{
                         font-family: museosans_500;
-                        font-size: 23px;
+                        font-size: 18px;
                         align-self: center;
                         text-align: center;
+                        margin-top: 20px;
                     }
 
                 }
@@ -82,44 +93,49 @@
 
                 .nosotros__fabrica{
                     width: fit-content;
-                    left: 10%;
+                    display: flex;
+                    margin-top: 5%;
 
                     .nosotros__imagen--fabrica{
-                        width: 8rem;
-                        height: 8rem;
+                        width: 60px;
+                        height: 60px;
                         align-self: center;
 
                     }
                     .nosotros__text--fabrica{
                         align-self: center;
-                        font-size: 23px;
+                        font-size: 18px;
                         font-family: museosans_500;
                         text-align: center;
+                        margin-top: 20px;
                     }
                 }
                 
                 .nosotros__entrega{
                     width: fit-content;
+                    display: flex;
+                    margin-top: 5%;
 
                     .nosotros__imagen--entrega{
-                        width: 8rem;
-                        height: 8rem;
+                        width: 60px;
+                        height: 60px;
                         align-self: center;
                         text-align: center;
                     }
                     .nosotros__text--entrega{
                         align-self: center;
                         font-family: museosans_500;
-                        font-size: 23px;
+                        font-size: 18px;
                         text-align: center;
-                        
+                        margin-top: 20px;
                         
                     } 
                 }
 
             }
-
-         }
+            
+            
+        }
 
 
 }
