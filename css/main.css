@@ -59,20 +59,23 @@
   .main__inicio .inicio__texto1 {
     font-size: 35px;
     color: white;
-    margin: 0rem 0rem 5rem 0rem;
-    font-family: jersey_m54; }
+    margin: 4.5rem 0rem 3rem 0rem;
+    font-family: jersey_m54;
+    text-shadow: -2px 0px 4px black; }
   .main__inicio .inicio__texto2 {
     font-size: 51px;
     color: white;
     font-family: jersey_m54;
-    padding-bottom: 50px; }
+    padding-bottom: 40px;
+    text-shadow: -2px 0px 4px black; }
   .main__inicio .inicio__texto3 {
     text-decoration: none;
     color: white !important;
     /*No me deja igual que el Nav*/
-    font-size: 24px;
+    font-size: 18px;
+    text-shadow: -1px 0px 4px black;
     background-color: #FECF07;
-    padding: 4px 10px;
+    padding: 7px 15px;
     border-radius: 10px;
     font-family: museosans_900; }
   .main__inicio .inicio__boton:hover {
