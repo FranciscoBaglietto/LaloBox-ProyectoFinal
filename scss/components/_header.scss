@@ -4,12 +4,14 @@
 
     .cabecera__logo{
         width: 5rem;
-        margin-left: 20px;
+        margin-left: 60%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
 
     .navegador{
-        margin-right: 10px;
+        margin-right: 3%;
 
         .navbar-nav{
             text-align: center;
@@ -18,6 +20,7 @@
                 font-size: 18px;
                 color: map-get($color, color-principal) !important;
                 font-family: museosans-300;
+                margin-left: 10px;
                 transition: transform 1s;
 
                 &:hover{

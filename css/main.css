@@ -26,15 +26,18 @@
   background-color: black; }
   .cabecera .cabecera__logo {
     width: 5rem;
-    margin-left: 20px; }
+    margin-left: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%; }
   .cabecera .navegador {
-    margin-right: 10px; }
+    margin-right: 3%; }
     .cabecera .navegador .navbar-nav {
       text-align: center; }
       .cabecera .navegador .navbar-nav .nav-link {
         font-size: 18px;
         color: white !important;
         font-family: museosans-300;
+        margin-left: 10px;
         transition: transform 1s; }
         .cabecera .navegador .navbar-nav .nav-link:hover {
           transform: scale(1.1); }
