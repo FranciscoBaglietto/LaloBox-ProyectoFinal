@@ -1,34 +1,61 @@
 .footer{
     background-color: black;
 
-    .secciones{
+    .secciones__footer{
 
-        margin-top: 2%;
-        margin-left: 10px;
+        .secciones__footer--contacto{
+            margin-top: 20px;
+            margin-bottom: 20px;
 
-        .contenedor__correo{
+            .contacto__ubicacion{
 
-            .imagen__correo{
-                width: 35px;
-                height: 35px;
+                .icono__ubicacion{
+                    width: 25px;
+                    height: 25px;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .texto__footer{
+                    color: map-get($color, color-principal);
+                    margin-left: 10px;
+                }
             }
-            .correo__texto{
-                color: #F6F6F6;
-                text-align: center;
-                margin-top: 5px;
-                margin-left: 5px;
-            }
-        }
+            .contacto__telefono{
 
-
-        .contenedor__redes {
-            .redes{
-                margin-right: 5px;
+                .icono__telefono{
+                    width: 25px;
+                    height: 25px;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .texto__footer{
+                    color: map-get($color, color-principal);
+                    margin-left: 10px;
+                }
+                    
             }
-        }
-        
-        .secciones__paginas a{
-            flex-direction: column;
+            .contacto__mail{
+
+                .icono__mail{
+                        width: 25px;
+                        height: 25px;
+                        align-items: center;
+                        justify-content: center;
+                }
+                .texto__footer{
+                    color: map-get($color, color-principal);
+                    margin-left: 10px;
+                }
+                    
+            }
+
+            .redessociales{
+                .icono__redes{
+                        width: 25px;
+                        height: 25px;
+                        margin-right: 5px;
+                }
+            }
         }
     }
 }
