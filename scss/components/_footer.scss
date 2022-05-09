@@ -6,6 +6,7 @@
         .secciones__footer--contacto{
             margin-top: 20px;
             margin-bottom: 20px;
+            
 
             .contacto__ubicacion{
 
@@ -69,8 +70,24 @@
                 .footer__link{
                     text-decoration: none;
                     color: map-get($color, color-principal);
+                    
                 }
                 
+            }
+        }
+
+        .secciones__footer--formulario{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+
+            .form__text{
+                color: map-get($color, color-principal);
+                margin: 6px 0px 1px 0px
+            }
+
+            .form__boton{
+                margin: 5px 0px;
             }
         }
     }

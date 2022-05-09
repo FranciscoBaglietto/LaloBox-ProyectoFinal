@@ -214,3 +214,12 @@
       .footer .secciones__footer .secciones__footer--link .footer__lista .footer__link {
         text-decoration: none;
         color: #F6F6F6; }
+  .footer .secciones__footer .secciones__footer--formulario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; }
+    .footer .secciones__footer .secciones__footer--formulario .form__text {
+      color: #F6F6F6;
+      margin: 6px 0px 1px 0px; }
+    .footer .secciones__footer .secciones__footer--formulario .form__boton {
+      margin: 5px 0px; }
