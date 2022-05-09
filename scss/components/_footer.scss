@@ -57,5 +57,21 @@
                 }
             }
         }
+
+        .secciones__footer--link{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+
+            .footer__lista{
+                list-style: none;
+
+                .footer__link{
+                    text-decoration: none;
+                    color: map-get($color, color-principal);
+                }
+                
+            }
+        }
     }
 }

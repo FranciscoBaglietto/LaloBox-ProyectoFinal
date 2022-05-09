@@ -205,3 +205,12 @@
       width: 25px;
       height: 25px;
       margin-right: 5px; }
+  .footer .secciones__footer .secciones__footer--link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista {
+      list-style: none; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__link {
+        text-decoration: none;
+        color: #F6F6F6; }
