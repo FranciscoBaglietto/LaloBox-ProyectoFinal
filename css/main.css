@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: museosans-700italic;
-  src: url(../../tipografias/); }
+  src: url("../../tipografias/Museo700-Regular (1).otf"); }
 
 .cabecera {
   background-color: black; }
@@ -188,6 +188,14 @@
     margin-left: 10%; }
   .main__modelos .modelos__contenedor .modelos__text1 {
     font-family: jersey_m54;
+    font-size: 40px;
+    color: #F6F6F6; }
+  .main__modelos .modelos__contenedor .modelos__text2 {
+    font-family: museosans-700italic;
+    font-size: 26px;
+    color: #F6F6F6; }
+  .main__modelos .modelos__contenedor .modelos__text3 {
+    font-family: museosans_100;
     font-size: 20px;
     color: #F6F6F6; }
   .main__modelos .modelos__imagenes .imagen__rayas {

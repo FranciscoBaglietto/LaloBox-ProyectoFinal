@@ -15,12 +15,19 @@
 
         .modelos__text1{
             font-family: jersey_m54;
-            font-size: 20px;
+            font-size: 40px;
             color: map-get($color, color-principal);
-            
+
         }
         .modelos__text2{
-            font-size: 100px;
+            font-family: museosans-700italic;
+            font-size: 26px;
+            color: map-get($color, color-principal);;
+        }
+        .modelos__text3{
+            font-family: museosans_100;
+            font-size: 20px;
+            color: map-get($color, color-principal);;
         }
         
 
