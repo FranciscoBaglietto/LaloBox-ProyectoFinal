@@ -1,0 +1,91 @@
+.nosotros__main{
+    background-color:  map-get($color, color-principal);
+    overflow: hidden;
+
+    .vivienda__titulo{
+        color: map-get($color, color-secundario);
+        font-family: museosans_900;
+        font-size: 24.73px;
+        border-bottom: 4px solid;
+        width: fit-content;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .vivienda__text1{
+        font-family: jersey_m54;
+        font-size: 40px;
+        margin-top: 10%;
+        margin-left: 13%;
+
+        .viviendas__text1--span{
+            font-family: museosans-700italic;
+            
+        }
+
+    }
+
+    .vivienda__text2{
+        font-family: museosans_100;
+        font-size: 20px;
+        margin-top: 3%;
+        margin-left: 13%;
+    }
+
+    .contenedor__metros{
+        margin-left: 13%;
+
+        .imagen__marcador{
+            width: 60px;
+            height: 60px;
+        }
+        .metros__texto{
+            margin-top: 15px;
+            font-family: museosans-500;
+            font-size: 20px;
+
+        }
+        
+    }
+
+    .contenedor__equipado{
+        margin-left: 13%;
+
+        .imagen__marcador{
+            width: 60px;
+            height: 60px;
+        }
+        .equipado__text{
+            margin-top: 15px;
+            font-family: museosans-500;
+            font-size: 20px;
+        }
+
+    }
+    .contenedor__financiado{
+        margin-left: 13%;
+
+        .imagen__marcador{
+            width: 60px;
+            height: 60px;
+        }
+        .financiado__text{
+            margin-top: 15px;
+            font-family: museosans-500;
+            font-size: 20px;
+        }
+
+    }
+
+    .vivienda__imagen{
+        width: fit-content;
+        height: auto;
+        margin-left: fit-content;
+        margin-top: -3px;
+        
+    }
+
+
+
+
+}

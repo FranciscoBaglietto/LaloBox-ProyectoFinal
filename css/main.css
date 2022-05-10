@@ -26,6 +26,10 @@
   font-family: museosans-700italic;
   src: url("../../tipografias/Museo700-Regular (1).otf"); }
 
+@font-face {
+  font-family: museosans-500;
+  src: url("../../tipografias/MuseoSans_1.otf"); }
+
 .cabecera {
   background-color: black; }
   .cabecera .cabecera__logo {
@@ -216,6 +220,62 @@
     .main__modelos .modelos__imagenes .carousel .imagenes__carrusel {
       width: auto;
       height: 28rem; }
+
+.nosotros__main {
+  background-color: #F6F6F6;
+  overflow: hidden; }
+  .nosotros__main .vivienda__titulo {
+    color: #FECF07;
+    font-family: museosans_900;
+    font-size: 24.73px;
+    border-bottom: 4px solid;
+    width: fit-content;
+    margin-top: 10%;
+    margin-left: 10%; }
+  .nosotros__main .vivienda__text1 {
+    font-family: jersey_m54;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 13%; }
+    .nosotros__main .vivienda__text1 .viviendas__text1--span {
+      font-family: museosans-700italic; }
+  .nosotros__main .vivienda__text2 {
+    font-family: museosans_100;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 13%; }
+  .nosotros__main .contenedor__metros {
+    margin-left: 13%; }
+    .nosotros__main .contenedor__metros .imagen__marcador {
+      width: 60px;
+      height: 60px; }
+    .nosotros__main .contenedor__metros .metros__texto {
+      margin-top: 15px;
+      font-family: museosans-500;
+      font-size: 20px; }
+  .nosotros__main .contenedor__equipado {
+    margin-left: 13%; }
+    .nosotros__main .contenedor__equipado .imagen__marcador {
+      width: 60px;
+      height: 60px; }
+    .nosotros__main .contenedor__equipado .equipado__text {
+      margin-top: 15px;
+      font-family: museosans-500;
+      font-size: 20px; }
+  .nosotros__main .contenedor__financiado {
+    margin-left: 13%; }
+    .nosotros__main .contenedor__financiado .imagen__marcador {
+      width: 60px;
+      height: 60px; }
+    .nosotros__main .contenedor__financiado .financiado__text {
+      margin-top: 15px;
+      font-family: museosans-500;
+      font-size: 20px; }
+  .nosotros__main .vivienda__imagen {
+    width: fit-content;
+    height: auto;
+    margin-left: fit-content;
+    margin-top: -3px; }
 
 .footer {
   background-color: black; }
