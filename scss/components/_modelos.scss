@@ -1,0 +1,49 @@
+.main__modelos{
+    background-color: black;
+
+    .modelos__contenedor{
+
+        .modelos__titulo{
+            color: map-get($color, color-secundario);
+            font-family: museosans_900;
+            font-size: 24.73px;
+            border-bottom: 4px solid;
+            width: fit-content;
+            margin-top: 10%;
+            margin-left: 10%;
+        }
+
+        .modelos__text1{
+            font-family: jersey_m54;
+            font-size: 20px;
+            color: map-get($color, color-principal);
+            
+        }
+        .modelos__text2{
+            font-size: 100px;
+        }
+        
+
+    }
+
+    .modelos__imagenes{
+
+        .imagen__rayas{
+            width: 350px;
+        
+        }
+
+        .carousel{
+            width: fit-content;
+    
+            .imagenes__carrusel{
+                width: auto;
+                height: 400px;
+            }
+        }
+
+
+    }
+
+
+}

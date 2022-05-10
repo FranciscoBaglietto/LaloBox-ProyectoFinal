@@ -22,6 +22,10 @@
   font-family: museosans_900;
   src: url("../tipografias/MuseoSans.otf"); }
 
+@font-face {
+  font-family: museosans-700italic;
+  src: url(../../tipografias/); }
+
 .cabecera {
   background-color: black; }
   .cabecera .cabecera__logo {
@@ -171,6 +175,28 @@
         font-size: 18px;
         text-align: center;
         margin-top: 20px; }
+
+.main__modelos {
+  background-color: black; }
+  .main__modelos .modelos__contenedor .modelos__titulo {
+    color: #FECF07;
+    font-family: museosans_900;
+    font-size: 24.73px;
+    border-bottom: 4px solid;
+    width: fit-content;
+    margin-top: 10%;
+    margin-left: 10%; }
+  .main__modelos .modelos__contenedor .modelos__text1 {
+    font-family: jersey_m54;
+    font-size: 20px;
+    color: #F6F6F6; }
+  .main__modelos .modelos__imagenes .imagen__rayas {
+    width: 350px; }
+  .main__modelos .modelos__imagenes .carousel {
+    width: fit-content; }
+    .main__modelos .modelos__imagenes .carousel .imagenes__carrusel {
+      width: auto;
+      height: 400px; }
 
 .footer {
   background-color: black; }
