@@ -176,7 +176,8 @@
   background-color: black; }
   .footer .secciones__footer .secciones__footer--contacto {
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: ce; }
     .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .icono__ubicacion {
       width: 25px;
       height: 25px;
