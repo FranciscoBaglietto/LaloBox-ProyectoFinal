@@ -9,25 +9,34 @@
             font-size: 24.73px;
             border-bottom: 4px solid;
             width: fit-content;
-            margin-top: 10%;
+            margin-top: 5%;
             margin-left: 10%;
+            margin-right: 10%;
         }
 
         .modelos__text1{
             font-family: jersey_m54;
-            font-size: 40px;
+            font-size: 45px;
             color: map-get($color, color-principal);
-
+            margin-top: 10%;
+            margin-left: 15%;
+            margin-right: 10%;
         }
         .modelos__text2{
             font-family: museosans-700italic;
-            font-size: 26px;
-            color: map-get($color, color-principal);;
+            font-size: 25px;
+            color: map-get($color, color-principal);
+            margin-top: 3%;
+            margin-left: 15%;
+            margin-right: 10%;
         }
         .modelos__text3{
             font-family: museosans_100;
             font-size: 20px;
-            color: map-get($color, color-principal);;
+            color: map-get($color, color-principal);
+            margin-top: 5%;
+            margin-left: 15%;
+            margin-right: 10%;
         }
         
 
@@ -36,16 +45,17 @@
     .modelos__imagenes{
 
         .imagen__rayas{
-            width: 350px;
-        
+            width: 21rem;
+            
         }
 
         .carousel{
-            width: fit-content;
+            width: 22rem;
+            padding-left: 2%;
     
             .imagenes__carrusel{
                 width: auto;
-                height: 400px;
+                height: 28rem;
             }
         }
 

@@ -184,74 +184,93 @@
     font-size: 24.73px;
     border-bottom: 4px solid;
     width: fit-content;
-    margin-top: 10%;
-    margin-left: 10%; }
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%; }
   .main__modelos .modelos__contenedor .modelos__text1 {
     font-family: jersey_m54;
-    font-size: 40px;
-    color: #F6F6F6; }
+    font-size: 45px;
+    color: #F6F6F6;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 10%; }
   .main__modelos .modelos__contenedor .modelos__text2 {
     font-family: museosans-700italic;
-    font-size: 26px;
-    color: #F6F6F6; }
+    font-size: 25px;
+    color: #F6F6F6;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 10%; }
   .main__modelos .modelos__contenedor .modelos__text3 {
     font-family: museosans_100;
     font-size: 20px;
-    color: #F6F6F6; }
+    color: #F6F6F6;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 10%; }
   .main__modelos .modelos__imagenes .imagen__rayas {
-    width: 350px; }
+    width: 21rem; }
   .main__modelos .modelos__imagenes .carousel {
-    width: fit-content; }
+    width: 22rem;
+    padding-left: 2%; }
     .main__modelos .modelos__imagenes .carousel .imagenes__carrusel {
       width: auto;
-      height: 400px; }
+      height: 28rem; }
 
 .footer {
   background-color: black; }
   .footer .secciones__footer .secciones__footer--contacto {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: ce; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .icono__ubicacion {
-      width: 25px;
-      height: 25px;
-      align-items: center;
-      justify-content: center; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .texto__footer {
-      color: #F6F6F6;
-      margin-left: 10px; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .icono__telefono {
-      width: 25px;
-      height: 25px;
-      align-items: center;
-      justify-content: center; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .texto__footer {
-      color: #F6F6F6;
-      margin-left: 10px; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__mail .icono__mail {
-      width: 25px;
-      height: 25px;
-      align-items: center;
-      justify-content: center; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__mail .texto__footer {
-      color: #F6F6F6;
-      margin-left: 10px; }
-    .footer .secciones__footer .secciones__footer--contacto .redessociales .icono__redes {
-      width: 25px;
-      height: 25px;
-      margin-right: 5px; }
+    margin-top: 3%;
+    margin-bottom: 3%; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion {
+      margin-left: 15%; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .icono__ubicacion {
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        justify-content: center; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .texto__footer {
+        color: #F6F6F6;
+        margin-left: 10px; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__telefono {
+      margin-left: 15%; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .icono__telefono {
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        justify-content: center; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .texto__footer {
+        color: #F6F6F6;
+        margin-left: 10px; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__mail {
+      margin-left: 15%; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__mail .icono__mail {
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        justify-content: center; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__mail .texto__footer {
+        color: #F6F6F6;
+        margin-left: 10px; }
+    .footer .secciones__footer .secciones__footer--contacto .redessociales {
+      margin-left: 15%; }
+      .footer .secciones__footer .secciones__footer--contacto .redessociales .icono__redes {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px; }
   .footer .secciones__footer .secciones__footer--link {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center; }
+    margin-top: 3%;
+    margin-bottom: 3%; }
     .footer .secciones__footer .secciones__footer--link .footer__lista {
       list-style: none; }
       .footer .secciones__footer .secciones__footer--link .footer__lista .footer__link {
         text-decoration: none;
-        color: #F6F6F6; }
+        color: #F6F6F6;
+        margin-top: 10%;
+        margin-left: 30%; }
   .footer .secciones__footer .secciones__footer--formulario {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
     text-align: center; }
     .footer .secciones__footer .secciones__footer--formulario .form__text {
       color: #F6F6F6;

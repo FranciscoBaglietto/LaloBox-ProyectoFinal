@@ -4,11 +4,13 @@
     .secciones__footer{
 
         .secciones__footer--contacto{
-            margin-top: 20px;
-            margin-bottom: 20px;
-            text-align: ce;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            
+            
 
             .contacto__ubicacion{
+                margin-left: 15%;
 
                 .icono__ubicacion{
                     width: 25px;
@@ -22,6 +24,7 @@
                 }
             }
             .contacto__telefono{
+                margin-left: 15%;
 
                 .icono__telefono{
                     width: 25px;
@@ -36,6 +39,7 @@
                     
             }
             .contacto__mail{
+                margin-left: 15%;
 
                 .icono__mail{
                         width: 25px;
@@ -51,6 +55,8 @@
             }
 
             .redessociales{
+                margin-left: 15%;
+
                 .icono__redes{
                         width: 25px;
                         height: 25px;
@@ -60,9 +66,9 @@
         }
 
         .secciones__footer--link{
-            margin-top: 20px;
-            margin-bottom: 20px;
-            text-align: center;
+            margin-top: 3%;
+            margin-bottom: 3%;
+           
 
             .footer__lista{
                 list-style: none;
@@ -70,15 +76,16 @@
                 .footer__link{
                     text-decoration: none;
                     color: map-get($color, color-principal);
-                    
+                    margin-top: 10%;
+                    margin-left: 30%;
                 }
                 
             }
         }
 
         .secciones__footer--formulario{
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 3%;
+            margin-bottom: 3%;
             text-align: center;
 
             .form__text{
