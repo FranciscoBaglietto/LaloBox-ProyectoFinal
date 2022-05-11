@@ -9,9 +9,8 @@
             font-size: 24.73px;
             border-bottom: 4px solid;
             width: fit-content;
-            margin-top: 5%;
+            margin-top: 10%;
             margin-left: 10%;
-            margin-right: 10%;
         }
 
         .modelos__text1{
@@ -20,24 +19,21 @@
             color: map-get($color, color-principal);
             align-items: center;
             margin-top: 10%;
-            margin-left: 15%;
-            margin-right: 10%;
+            margin-left: 13%;
         }
         .modelos__text2{
             font-family: museosans-700italic;
             font-size: 25px;
             color: map-get($color, color-principal);
             margin-top: 3%;
-            margin-left: 15%;
-            margin-right: 10%;
+            margin-left: 13%;
         }
         .modelos__text3{
             font-family: museosans_100;
             font-size: 20px;
             color: map-get($color, color-principal);
-            margin-top: 5%;
-            margin-left: 15%;
-            margin-right: 10%;
+            margin-top: 3%;
+            margin-left: 13%;
         }
         
 
