@@ -21,7 +21,7 @@
                 margin-left: 15%;
 
                 .icono__ubicacion{
-                    @include iconostamaño (25px, 25px)
+                    @include iconostamaño (24px, 24px)
                     
                 }
                 .texto__footer{
@@ -36,7 +36,7 @@
                 margin-left: 15%;
 
                 .icono__telefono{
-                    @include iconostamaño (25px, 25px)
+                    @include iconostamaño (24px, 24px)
 
                 }
                 .texto__footer{
@@ -49,7 +49,7 @@
                 margin-left: 15%;
 
                 .icono__mail{
-                    @include iconostamaño (25px, 25px)
+                    @include iconostamaño (24px, 20px)
 
                 }
                 .texto__footer{
@@ -60,10 +60,10 @@
             }
 
             .redessociales{
-                margin-left: 15%;
+                margin-left: 14%;
 
                 .icono__redes{
-                    @include iconostamaño (25px, 25px);
+                    @include iconostamaño (24px, 24px);
                     margin-right: 5px;
                 }
             }
