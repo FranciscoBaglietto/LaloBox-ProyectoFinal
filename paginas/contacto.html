@@ -50,71 +50,66 @@
 
     </header>
 
-    <main>
+    <main class="main__contacto">
 
-      <div class="container-fluid">
+      <div class="container">
 
-        <div class="row">
-
-          <h1>
-            Contacto
-          </h1>
-
-          <p>
-            Conta con nosotros para hacer realidad
-            <br>#TULUGARIDEAL
-          </p>
-
-          <div>
-            <img src="../imagen/ubicacion.jpg" alt="Ubicacion" width="100px">
-            <p>
-              Visita nuestra oficina
-            </p>
-            <p>
-              General Paz 1499, CP 6640
-            </p>
-          </div>
-          <div>
-            <img src="../imagen/mail.jpg" alt="Mail" width="100px">
-            <p>
-              Visita nuestra oficina
-            </p>
-            <p>
-              General Paz 1499, CP 6640
-            </p>
-          </div>
-
-          <div>
-
-            <form>
+          <div class="row-lg-6 row-sm-12">
               <div>
-                <div>
-                <label class="form__text" for="Nombre y Apellido">Nombre y Apellido</label>
-                </div>
-                <input type="text" name="Nombre__Completo" placeholder="Nombre y Apellido">
+                  <h1 class="contacto__titulo text-center">
+                      <b>CONTACTO</b>
+                  </h1>
+              </div>
+              <div>
+                  <p class="contacto__titulo--texto text-center">
+                      CONTA CON NOSOTROS PARA HACER REALIDAD
+                      <br> #TULUGARIDEAL
+                      
+                  </p>
+              </div>
+              <div class="text-center ">
+                  <img class="contacto__img--ubicacion text-cente" src="../imagen/ubicacion.jpg"  alt="Ubicacion" width="80px">
+                  <p class="contacto__ubicacion--text">
+                      <b>VISITA NUESTRA OFICINA</b>
+                      <br> General Paz 1499, CP 6640
+                  </p>
+              </div>
+              <div class="text-center">
+                  <img class="contacto__img--email" src="../imagen/mail.jpg"  alt="Mail" width="80px">
+                  <p class="contacto__email--text text-center">
+                      <b>E-MAIL</b>
+                      <br> lalobox@gmail.com
+                  </p>
+              </div>
+              <div>
+                  <p class="contacto__consulta">
+                      <b>ENVIA TU CONSULTA</b>
+                  </p>
               </div>
               
-              <div>
-                <div>
-                <label class="form__text" for="Mail">Mail</label>
-                </div>
-                <input type="email" name="Mail" placeholder="Mail">
-              </div>
-              <div>
-                <input class="form__boton" type="button" value="Enviar">
-              </div>
-            </form>
           </div>
-        </div>
+          <div class="row-lg-6 row-sm-12">
+              <div class="row  formulario__contacto ">
 
+                  <div class="col mb-3 ">
+                    <label for="exampleFormControlInput1" class="form-label">Apellido y Nombre</label>
+                    <input type="text" class="form-control" placeholder="Apellido y Nombre" aria-label="Apellido y Nombre">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                      <textarea class="form-control textarea" id="exampleFormControlTextarea1"></textarea>
+                    </div>
+                    <div>
+                      <input class="form__boton-contacto" type="button" value="Enviar">
+                    </div>
+                </div>
+          </div>
       </div>
 
-
-        </div>
-
-      </div>
-
-        
 
     </main>
 
@@ -164,19 +159,19 @@
   
             <ul class="footer__lista">
   
-              <li>
+              <li class="footer__lista-links">
                 <a class="footer__link" href="../index.html">Inicio</a>
               </li>
-              <li>
+              <li class="footer__lista-links">
                 <a class="footer__link" href="./nosotros.html">Nosotros</a>
               </li>
-              <li>
+              <li class="footer__lista-links">
                 <a class="footer__link" href="./modelos.html">Modelos</a>
               </li>
-              <li>
+              <li class="footer__lista-links">
                 <a class="footer__link" href="./viviendas.html">Viviendas</a>
               </li>
-              <li >
+              <li class="footer__lista-links">
                 <a class="footer__link" href="./contacto.html">Contacto</a>
               </li>
             </ul>
