@@ -1,6 +1,8 @@
 .footer{
     background-color: black;
 
+
+
     .secciones__footer{
 
         .secciones__footer--contacto{
@@ -122,4 +124,40 @@
             }
         }
     }
+
+    @media only screen and (max-width: 1024px) {
+
+        .secciones__footer{
+
+            .footer__titulo-formulario{
+                margin-left: 27%;
+            }
+
+        }
+
+    }
+    @media only screen and (max-width: 768px) {
+
+        .secciones__footer{
+
+            .footer__titulo-formulario{
+                margin-left: 21%;
+            }
+
+        }
+
+    }
+    @media only screen and (max-width: 375px) {
+
+        .secciones__footer{
+
+            .footer__titulo-formulario{
+                margin-left: 31%;
+            }
+
+        }
+
+    }
+
 }
+
