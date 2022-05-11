@@ -6,9 +6,18 @@
         .secciones__footer--contacto{
             margin-top: 30px;
             margin-bottom: 30px;
-            
-            
 
+            
+            .footer__titulo-contacto{
+                margin-left: 25%;
+                color: map-get($color, color-secundario);
+                font-family: museosans_900;
+                font-size: 20px;
+                border-bottom: 1px solid;
+                width: fit-content;
+
+            }
+        
             .contacto__ubicacion{
                 margin-left: 15%;
 
@@ -23,6 +32,9 @@
                     margin-left: 10px;
                 }
             }
+
+
+
             .contacto__telefono{
                 margin-left: 15%;
 
@@ -65,6 +77,15 @@
             }
         }
 
+        .footer__titulo-enlaces{
+            margin-left: 25%;
+            color: map-get($color, color-secundario);
+            font-family: museosans_900;
+            font-size: 20px;
+            border-bottom: 1px solid;
+            width: fit-content;
+        }
+
         .secciones__footer--link{
             margin-top: 30px;
             margin-bottom: 30px;
@@ -85,6 +106,15 @@
                 }
                 
             }
+        }
+        .footer__titulo-formulario{
+            margin-left: 35%;
+            color: map-get($color, color-secundario);
+            font-family: museosans_900;
+            font-size: 20px;
+            border-bottom: 1px solid;
+            width: fit-content;
+            
         }
 
         .secciones__footer--formulario{

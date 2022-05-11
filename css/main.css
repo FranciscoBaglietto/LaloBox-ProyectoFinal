@@ -321,6 +321,13 @@
   .footer .secciones__footer .secciones__footer--contacto {
     margin-top: 30px;
     margin-bottom: 30px; }
+    .footer .secciones__footer .secciones__footer--contacto .footer__titulo-contacto {
+      margin-left: 25%;
+      color: #FECF07;
+      font-family: museosans_900;
+      font-size: 20px;
+      border-bottom: 1px solid;
+      width: fit-content; }
     .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion {
       margin-left: 15%; }
       .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .icono__ubicacion {
@@ -357,6 +364,13 @@
         width: 25px;
         height: 25px;
         margin-right: 5px; }
+  .footer .secciones__footer .footer__titulo-enlaces {
+    margin-left: 25%;
+    color: #FECF07;
+    font-family: museosans_900;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    width: fit-content; }
   .footer .secciones__footer .secciones__footer--link {
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -369,6 +383,13 @@
         color: #F6F6F6;
         margin-left: 30%;
         margin-top: 10px; }
+  .footer .secciones__footer .footer__titulo-formulario {
+    margin-left: 35%;
+    color: #FECF07;
+    font-family: museosans_900;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    width: fit-content; }
   .footer .secciones__footer .secciones__footer--formulario {
     margin-top: 30px;
     margin-bottom: 30px;
