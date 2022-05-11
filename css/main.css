@@ -30,6 +30,13 @@
   font-family: museosans-500;
   src: url("../../tipografias/MuseoSans_1.otf"); }
 
+/*Maps*/
+/*Extend*/
+.footer .secciones__footer .secciones__footer--contacto, .footer .secciones__footer .secciones__footer--link, .footer .secciones__footer .secciones__footer--formulario {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/*Mixin*/
 .cabecera {
   background-color: black; }
   .cabecera .cabecera__logo {
@@ -314,52 +321,43 @@
 
 .footer {
   background-color: black; }
-  .footer .secciones__footer .secciones__footer--contacto {
-    margin-top: 30px;
-    margin-bottom: 30px; }
-    .footer .secciones__footer .secciones__footer--contacto .footer__titulo-contacto {
-      margin-left: 25%;
-      color: #FECF07;
-      font-family: museosans_900;
-      font-size: 20px;
-      border-bottom: 1px solid;
-      width: fit-content; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion {
-      margin-left: 15%; }
-      .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .icono__ubicacion {
-        width: 25px;
-        height: 25px;
-        align-items: center;
-        justify-content: center; }
-      .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .texto__footer {
-        color: #F6F6F6;
-        margin-left: 10px; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__telefono {
-      margin-left: 15%; }
-      .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .icono__telefono {
-        width: 25px;
-        height: 25px;
-        align-items: center;
-        justify-content: center; }
-      .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .texto__footer {
-        color: #F6F6F6;
-        margin-left: 10px; }
-    .footer .secciones__footer .secciones__footer--contacto .contacto__mail {
-      margin-left: 15%; }
-      .footer .secciones__footer .secciones__footer--contacto .contacto__mail .icono__mail {
-        width: 25px;
-        height: 25px;
-        align-items: center;
-        justify-content: center; }
-      .footer .secciones__footer .secciones__footer--contacto .contacto__mail .texto__footer {
-        color: #F6F6F6;
-        margin-left: 10px; }
-    .footer .secciones__footer .secciones__footer--contacto .redessociales {
-      margin-left: 15%; }
-      .footer .secciones__footer .secciones__footer--contacto .redessociales .icono__redes {
-        width: 25px;
-        height: 25px;
-        margin-right: 5px; }
+  .footer .secciones__footer .secciones__footer--contacto .footer__titulo-contacto {
+    margin-left: 25%;
+    color: #FECF07;
+    font-family: museosans_900;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    width: fit-content; }
+  .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion {
+    margin-left: 15%; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .icono__ubicacion {
+      width: 25px;
+      height: 25px; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .texto__footer {
+      color: #F6F6F6;
+      margin-left: 10px; }
+  .footer .secciones__footer .secciones__footer--contacto .contacto__telefono {
+    margin-left: 15%; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .icono__telefono {
+      width: 25px;
+      height: 25px; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .texto__footer {
+      color: #F6F6F6;
+      margin-left: 10px; }
+  .footer .secciones__footer .secciones__footer--contacto .contacto__mail {
+    margin-left: 15%; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__mail .icono__mail {
+      width: 25px;
+      height: 25px; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__mail .texto__footer {
+      color: #F6F6F6;
+      margin-left: 10px; }
+  .footer .secciones__footer .secciones__footer--contacto .redessociales {
+    margin-left: 15%; }
+    .footer .secciones__footer .secciones__footer--contacto .redessociales .icono__redes {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px; }
   .footer .secciones__footer .footer__titulo-enlaces {
     margin-left: 25%;
     color: #FECF07;
@@ -367,18 +365,15 @@
     font-size: 20px;
     border-bottom: 1px solid;
     width: fit-content; }
-  .footer .secciones__footer .secciones__footer--link {
-    margin-top: 30px;
-    margin-bottom: 30px; }
-    .footer .secciones__footer .secciones__footer--link .footer__lista {
-      list-style: none; }
-      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
-        margin-bottom: 5px; }
-      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__link {
-        text-decoration: none;
-        color: #F6F6F6;
-        margin-left: 30%;
-        margin-top: 10px; }
+  .footer .secciones__footer .secciones__footer--link .footer__lista {
+    list-style: none; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+      margin-bottom: 5px; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista .footer__link {
+      text-decoration: none;
+      color: #F6F6F6;
+      margin-left: 30%;
+      margin-top: 10px; }
   .footer .secciones__footer .footer__titulo-formulario {
     margin-left: 35%;
     color: #FECF07;
@@ -387,8 +382,6 @@
     border-bottom: 1px solid;
     width: fit-content; }
   .footer .secciones__footer .secciones__footer--formulario {
-    margin-top: 30px;
-    margin-bottom: 30px;
     text-align: center; }
     .footer .secciones__footer .secciones__footer--formulario .form__text {
       color: #F6F6F6;

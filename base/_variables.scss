@@ -1,4 +1,18 @@
+    /*Maps*/
 $color: (
     color-principal: #F6F6F6,
     color-secundario: #FECF07,
-)
+);
+
+/*Extend*/
+%secciones-margin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+};
+
+/*Mixin*/
+@mixin iconostamaño ($width, $height) {
+    width: $width ;
+    height: $height ;
+
+}

@@ -4,8 +4,7 @@
     .secciones__footer{
 
         .secciones__footer--contacto{
-            margin-top: 30px;
-            margin-bottom: 30px;
+            @extend %secciones-margin;
 
             
             .footer__titulo-contacto{
@@ -22,10 +21,8 @@
                 margin-left: 15%;
 
                 .icono__ubicacion{
-                    width: 25px;
-                    height: 25px;
-                    align-items: center;
-                    justify-content: center;
+                    @include iconostamaño (25px, 25px)
+                    
                 }
                 .texto__footer{
                     color: map-get($color, color-principal);
@@ -39,10 +36,8 @@
                 margin-left: 15%;
 
                 .icono__telefono{
-                    width: 25px;
-                    height: 25px;
-                    align-items: center;
-                    justify-content: center;
+                    @include iconostamaño (25px, 25px)
+
                 }
                 .texto__footer{
                     color: map-get($color, color-principal);
@@ -54,10 +49,8 @@
                 margin-left: 15%;
 
                 .icono__mail{
-                        width: 25px;
-                        height: 25px;
-                        align-items: center;
-                        justify-content: center;
+                    @include iconostamaño (25px, 25px)
+
                 }
                 .texto__footer{
                     color: map-get($color, color-principal);
@@ -70,9 +63,8 @@
                 margin-left: 15%;
 
                 .icono__redes{
-                        width: 25px;
-                        height: 25px;
-                        margin-right: 5px;
+                    @include iconostamaño (25px, 25px);
+                    margin-right: 5px;
                 }
             }
         }
@@ -87,8 +79,7 @@
         }
 
         .secciones__footer--link{
-            margin-top: 30px;
-            margin-bottom: 30px;
+            @extend %secciones-margin;
            
 
             .footer__lista{
@@ -118,8 +109,7 @@
         }
 
         .secciones__footer--formulario{
-            margin-top: 30px;
-            margin-bottom: 30px;
+            @extend %secciones-margin;
             text-align: center;
 
             .form__text{
