@@ -86,6 +86,120 @@
     }
 
 
+    @media only screen and (max-width: 1199px) {
 
+
+
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .vivienda__titulo{
+            margin-top: 5%;
+        }
+        .vivienda__text1{
+            margin-top: 5.6%;
+ 
+        }
+
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .vivienda__titulo{
+            font-size: 24.73px;
+            border-bottom: 4px solid;
+            width: fit-content;
+            margin-top: 10%;
+            margin-left: 10%;
+        }
+        .vivienda__text1{
+            font-size: 34px;
+            margin-top: 20%;
+            margin-left: 5%;
+            
+    
+        }
+        .vivienda__text2{
+            font-size: 20px;
+            margin-top: 10%;
+            margin-left: 10%;
+            margin-bottom: 10%;
+        }
+        .vivienda__imagen{
+            width: fit-content;
+            height: 100%;
+            margin-top: -1px;
+            
+        }
+
+
+
+
+    }
+    @media only screen and (max-width: 375px) {
+
+        .vivienda__titulo{
+            font-size: 24.73px;
+            border-bottom: 4px solid;
+            width: fit-content;
+            margin-top: 10%;
+            margin-left: 10%;
+        }
+        .vivienda__text1{
+            font-size: 34px;
+            margin-top: 20%;
+            margin-left: 5%;
+            text-align: center;
+    
+        }
+        .vivienda__text2{
+            font-size: 20px;
+            margin-top: 10%;
+            margin-left: 6%;
+            margin-bottom: 10%;
+        }
+        .vivienda__imagen{
+            width: fit-content;
+            height: 100%;
+            margin-top: 10%;
+            
+        }
+
+
+
+    }
+    @media only screen and (max-width: 320px) {
+
+        .vivienda__titulo{
+            font-size: 24.73px;
+            border-bottom: 4px solid;
+            width: fit-content;
+            margin-top: 10%;
+            margin-left: 10%;
+        }
+        .vivienda__text1{
+            font-size: 34px;
+            margin-top: 20%;
+            margin-left: 5%;
+            text-align: center;
+    
+        }
+        .vivienda__text2{
+            font-size: 20px;
+            margin-top: 10%;
+            margin-left: 6%;
+            margin-bottom: 10%;
+        }
+        .vivienda__imagen{
+            width: fit-content;
+            height: 100%;
+            margin-top: 10%;
+            
+        }
+
+
+
+
+    }
 
 }

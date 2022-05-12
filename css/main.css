@@ -403,6 +403,73 @@
     height: auto;
     margin-left: fit-content;
     margin-top: -3px; }
+  @media only screen and (max-width: 1024px) {
+    .nosotros__main .vivienda__titulo {
+      margin-top: 5%; }
+    .nosotros__main .vivienda__text1 {
+      margin-top: 5.6%; } }
+  @media only screen and (max-width: 768px) {
+    .nosotros__main .vivienda__titulo {
+      font-size: 24.73px;
+      border-bottom: 4px solid;
+      width: fit-content;
+      margin-top: 10%;
+      margin-left: 10%; }
+    .nosotros__main .vivienda__text1 {
+      font-size: 34px;
+      margin-top: 20%;
+      margin-left: 5%; }
+    .nosotros__main .vivienda__text2 {
+      font-size: 20px;
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-bottom: 10%; }
+    .nosotros__main .vivienda__imagen {
+      width: fit-content;
+      height: 100%;
+      margin-top: -1px; } }
+  @media only screen and (max-width: 375px) {
+    .nosotros__main .vivienda__titulo {
+      font-size: 24.73px;
+      border-bottom: 4px solid;
+      width: fit-content;
+      margin-top: 10%;
+      margin-left: 10%; }
+    .nosotros__main .vivienda__text1 {
+      font-size: 34px;
+      margin-top: 20%;
+      margin-left: 5%;
+      text-align: center; }
+    .nosotros__main .vivienda__text2 {
+      font-size: 20px;
+      margin-top: 10%;
+      margin-left: 6%;
+      margin-bottom: 10%; }
+    .nosotros__main .vivienda__imagen {
+      width: fit-content;
+      height: 100%;
+      margin-top: 10%; } }
+  @media only screen and (max-width: 320px) {
+    .nosotros__main .vivienda__titulo {
+      font-size: 24.73px;
+      border-bottom: 4px solid;
+      width: fit-content;
+      margin-top: 10%;
+      margin-left: 10%; }
+    .nosotros__main .vivienda__text1 {
+      font-size: 34px;
+      margin-top: 20%;
+      margin-left: 5%;
+      text-align: center; }
+    .nosotros__main .vivienda__text2 {
+      font-size: 20px;
+      margin-top: 10%;
+      margin-left: 6%;
+      margin-bottom: 10%; }
+    .nosotros__main .vivienda__imagen {
+      width: fit-content;
+      height: 100%;
+      margin-top: 10%; } }
 
 .main__contacto {
   background-color: black;
