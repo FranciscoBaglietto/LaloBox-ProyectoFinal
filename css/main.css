@@ -99,6 +99,40 @@
     width: fit-content;
     margin: 0 auto;
     transition: transform 1s; }
+  @media only screen and (max-width: 1024px) {
+    .main__inicio .sticker {
+      width: 25rem;
+      margin-top: -15rem;
+      height: 100%; }
+    .main__inicio .inicio__texto1 {
+      font-size: 30px;
+      margin: 9rem 0rem 3rem 0rem; } }
+  @media only screen and (max-width: 768px) {
+    .main__inicio .sticker {
+      width: 25rem;
+      margin-top: -15rem;
+      height: 100%; }
+    .main__inicio .inicio__texto1 {
+      font-size: 30px;
+      margin: 9rem 0rem 3rem 0rem; } }
+  @media only screen and (max-width: 375px) {
+    .main__inicio .inicio__texto1 {
+      font-size: 30px;
+      margin: 10rem 0rem 3rem 0rem; }
+    .main__inicio .inicio__texto2 {
+      font-size: 40px;
+      padding-bottom: 40px; } }
+  @media only screen and (max-width: 320px) {
+    .main__inicio .sticker {
+      width: 26rem;
+      margin-top: -15rem;
+      height: 100%; }
+    .main__inicio .inicio__texto1 {
+      font-size: 30px;
+      margin: 13rem 0rem 3rem 0rem; }
+    .main__inicio .inicio__texto2 {
+      font-size: 40px;
+      padding-bottom: 40px; } }
 
 .main__nosotros {
   background-color: #F6F6F6;
@@ -186,6 +220,44 @@
         font-size: 18px;
         text-align: center;
         margin-top: 20px; }
+  @media only screen and (max-width: 1199px) {
+    .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
+      font-size: 18px;
+      margin-left: 10%;
+      margin-top: 6%; } }
+  @media only screen and (max-width: 1024px) {
+    .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
+      font-size: 18px;
+      margin-left: 10%;
+      margin-top: 6%; } }
+  @media only screen and (max-width: 768px) {
+    .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
+      font-size: 20px;
+      margin-left: 10%;
+      margin-top: 5%; } }
+  @media only screen and (max-width: 375px) {
+    .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
+      font-size: 20px;
+      margin-left: 5%;
+      margin-top: 15%; }
+    .main__nosotros .nosotros__contenedor .contenedor__compromiso {
+      gap: 1%;
+      margin-top: 1%; }
+    .main__nosotros .nosotros__contenedor .contenedor__fabrica {
+      gap: 10%;
+      margin-bottom: 10%; } }
+  @media only screen and (max-width: 320px) {
+    .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
+      font-family: museosans_100;
+      font-size: 18px;
+      margin-left: 8%;
+      margin-top: 15%; }
+    .main__nosotros .nosotros__contenedor .contenedor__compromiso {
+      gap: 1%;
+      margin-top: 1%; }
+    .main__nosotros .nosotros__contenedor .contenedor__fabrica {
+      gap: 12%;
+      margin-bottom: 10%; } }
 
 .main__modelos {
   background-color: black; }

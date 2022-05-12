@@ -50,4 +50,62 @@
         margin: 0 auto;
         transition: transform 1s;
     }
+
+
+    @media only screen and (max-width: 1024px) {
+        .sticker{
+            width: 25rem;
+            margin-top: -15rem;
+            height: 100%;
+        }
+        .inicio__texto1{
+            font-size: 30px;
+            margin: 9rem 0rem 3rem 0rem;
+        }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .sticker{
+            width: 25rem;
+            margin-top: -15rem;
+            height: 100%;
+        }
+        .inicio__texto1{
+            font-size: 30px;
+            margin: 9rem 0rem 3rem 0rem;
+        }
+
+
+    }
+    @media only screen and (max-width: 375px) {
+
+        .inicio__texto1{
+            font-size: 30px;
+            margin: 10rem 0rem 3rem 0rem;
+        }
+        .inicio__texto2{
+            font-size: 40px;
+            padding-bottom: 40px;
+        }
+
+    }
+    @media only screen and (max-width: 320px) {
+        .sticker{
+            width: 26rem;
+            margin-top: -15rem;
+            height: 100%;
+        }
+        .inicio__texto1{
+            font-size: 30px;
+            margin: 13rem 0rem 3rem 0rem;
+        }
+        .inicio__texto2{
+            font-size: 40px;
+            padding-bottom: 40px;
+        }
+
+
+    }
 }

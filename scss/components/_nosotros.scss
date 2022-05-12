@@ -8,7 +8,7 @@
         margin-left: fit-content;
         margin-top: -3px;
         
-    }
+        }
         .nosotros__contenedor{
             
             
@@ -136,7 +136,122 @@
             
             
         }
+        @media only screen and (max-width: 1199px) {
 
+            .nosotros__contenedor{
+
+                .nosotros__titulo{
+
+                           &--texto{
+                           font-size: 18px;
+                           margin-left: 10%;
+                           margin-top: 6%;
+                     
+                        }
+                }
+     
+
+            }
+
+    
+        }
+
+        @media only screen and (max-width: 1024px) {
+
+            .nosotros__contenedor{
+
+                .nosotros__titulo{
+
+                           &--texto{
+                           font-size: 18px;
+                           margin-left: 10%;
+                           margin-top: 6%;
+                     
+                        }
+                }
+     
+
+            }
+
+    
+        }
+    
+        @media only screen and (max-width: 768px) {
+
+            .nosotros__contenedor{
+
+                .nosotros__titulo{
+
+                           &--texto{
+                           font-size: 20px;
+                           margin-left: 10%;
+                           margin-top: 5%;
+                           
+                     
+                        }
+                }
+
+
+            }
+
+    
+    
+        }
+        @media only screen and (max-width: 375px) {
+
+            .nosotros__contenedor{
+
+                .nosotros__titulo{
+
+                           &--texto{
+                           font-size: 20px;
+                           margin-left: 5%;
+                           margin-top: 15%;
+                           
+                     
+                        }
+                }
+                .contenedor__compromiso{
+                    gap: 1%;
+                    margin-top: 1%;
+                }
+                .contenedor__fabrica{
+                    gap: 10%;
+                    margin-bottom: 10%;
+                }
+
+            }
+    
+
+    
+        }
+        @media only screen and (max-width: 320px) {
+
+            .nosotros__contenedor{
+
+                .nosotros__titulo{
+
+                           &--texto{
+                           font-family: museosans_100 ;
+                           font-size: 18px;
+                           margin-left: 8%;
+                           margin-top: 15%;
+                     
+                        }
+                }
+                .contenedor__compromiso{
+                    gap: 1%;
+                    margin-top: 1%;
+                }
+                .contenedor__fabrica{
+                    gap: 12%;
+                    margin-bottom: 10%;
+                }
+
+            }
+    
+    
+        }
 
 }
 
