@@ -59,5 +59,119 @@
 
     }
 
+    @media only screen and (max-width: 1199px) {
 
+
+
+
+    }
+
+    @media only screen and (max-width: 1024px) {
+
+        .modelos__contenedor{
+            .modelos__text1{
+                margin-top: 20%;
+                margin-bottom: 9% 
+            }
+        }
+
+
+
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        
+        .modelos__contenedor{
+            .modelos__text1{
+                font-size: 35px;
+                margin-top: 25%;
+                margin-left: 9%;
+            }
+            .modelos__text2{
+                font-size: 24px;
+                margin-top: 15%;
+                margin-left: 13%;
+            }
+            .modelos__text3{
+                font-size: 18px;
+                margin-top: 8%;
+                margin-left: 13%;
+            }
+
+        }
+
+
+
+
+    }
+    @media only screen and (max-width: 375px) {
+        .modelos__contenedor{
+            .modelos__text1{
+                font-size: 35px;
+                margin-top: 20%;
+                margin-left: 9%;
+            }
+            .modelos__text2{
+                font-size: 24px;
+                margin-top: 10%;
+                margin-left: 13%;
+            }
+            .modelos__text3{
+                font-size: 16px;
+                margin-top: 10%;
+                margin-left: 13%;
+            }
+
+        }
+
+
+
+
+
+    }
+    @media only screen and (max-width: 320px) {
+        .modelos__contenedor{
+            .modelos__text1{
+                font-size: 35px;
+                margin-top: 20%;
+                margin-left: 9%;
+            }
+            .modelos__text2{
+                font-size: 24px;
+                margin-top: 10%;
+                margin-left: 13%;
+            }
+            .modelos__text3{
+                font-size: 19px;
+                margin-top: 10%;
+                margin-left: 13%;
+            }
+
+        }
+
+        .modelos__imagenes{
+            
+            .imagen__rayas{
+                width: 18rem;
+                
+            }
+    
+            .carousel{
+                width: 18rem;
+                padding-left: 4.5%;
+        
+                .imagenes__carrusel{
+                    width: auto;
+                    height: 22rem;
+                }
+            }
+    
+    
+        }
+
+
+
+
+    }
 }

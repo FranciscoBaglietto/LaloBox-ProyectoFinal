@@ -296,6 +296,57 @@
     .main__modelos .modelos__imagenes .carousel .imagenes__carrusel {
       width: auto;
       height: 28rem; }
+  @media only screen and (max-width: 1024px) {
+    .main__modelos .modelos__contenedor .modelos__text1 {
+      margin-top: 20%;
+      margin-bottom: 9%; } }
+  @media only screen and (max-width: 768px) {
+    .main__modelos .modelos__contenedor .modelos__text1 {
+      font-size: 35px;
+      margin-top: 25%;
+      margin-left: 9%; }
+    .main__modelos .modelos__contenedor .modelos__text2 {
+      font-size: 24px;
+      margin-top: 15%;
+      margin-left: 13%; }
+    .main__modelos .modelos__contenedor .modelos__text3 {
+      font-size: 18px;
+      margin-top: 8%;
+      margin-left: 13%; } }
+  @media only screen and (max-width: 375px) {
+    .main__modelos .modelos__contenedor .modelos__text1 {
+      font-size: 35px;
+      margin-top: 20%;
+      margin-left: 9%; }
+    .main__modelos .modelos__contenedor .modelos__text2 {
+      font-size: 24px;
+      margin-top: 10%;
+      margin-left: 13%; }
+    .main__modelos .modelos__contenedor .modelos__text3 {
+      font-size: 16px;
+      margin-top: 10%;
+      margin-left: 13%; } }
+  @media only screen and (max-width: 320px) {
+    .main__modelos .modelos__contenedor .modelos__text1 {
+      font-size: 35px;
+      margin-top: 20%;
+      margin-left: 9%; }
+    .main__modelos .modelos__contenedor .modelos__text2 {
+      font-size: 24px;
+      margin-top: 10%;
+      margin-left: 13%; }
+    .main__modelos .modelos__contenedor .modelos__text3 {
+      font-size: 19px;
+      margin-top: 10%;
+      margin-left: 13%; }
+    .main__modelos .modelos__imagenes .imagen__rayas {
+      width: 18rem; }
+    .main__modelos .modelos__imagenes .carousel {
+      width: 18rem;
+      padding-left: 4.5%; }
+      .main__modelos .modelos__imagenes .carousel .imagenes__carrusel {
+        width: auto;
+        height: 22rem; } }
 
 .nosotros__main {
   background-color: #F6F6F6;
