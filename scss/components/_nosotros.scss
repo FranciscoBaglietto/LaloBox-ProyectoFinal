@@ -197,7 +197,7 @@
     
     
         }
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 390px) {
 
             .nosotros__contenedor{
 
@@ -212,7 +212,7 @@
                         }
                 }
                 .contenedor__compromiso{
-                    gap: 1%;
+                    gap: 4%;
                     margin-top: 1%;
                 }
                 .contenedor__fabrica{
@@ -240,8 +240,9 @@
                         }
                 }
                 .contenedor__compromiso{
-                    gap: 1%;
+                    gap: 2%;
                     margin-top: 1%;
+                    margin-left: 5%;
                 }
                 .contenedor__fabrica{
                     gap: 12%;
