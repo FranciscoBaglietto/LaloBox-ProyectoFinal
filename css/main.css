@@ -488,12 +488,22 @@
   .main__contacto .contacto__consultas {
     gap: 15%;
     margin-top: 70px; }
+    .main__contacto .contacto__consultas .contacto__img--ubicacion {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+      border-radius: 50%; }
     .main__contacto .contacto__consultas .contacto__ubicacion--text {
       color: #F6F6F6;
       font-family: museosans_900; }
     .main__contacto .contacto__consultas .contacto__email--text {
       color: #F6F6F6;
       font-family: museosans_900; }
+    .main__contacto .contacto__consultas .contacto__img--email {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+      border-radius: 50%; }
   .main__contacto .contacto__consulta {
     color: #F6F6F6;
     font-family: museosans_900;

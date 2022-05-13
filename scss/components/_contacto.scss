@@ -19,6 +19,13 @@
         gap: 15%;
         margin-top: 70px;
 
+        .contacto__img--ubicacion{
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+        }
+
     
     .contacto__ubicacion--text{
         color: map-get($color, color-principal);
@@ -28,6 +35,12 @@
         color: map-get($color, color-principal);
         font-family: museosans_900;
     }
+        .contacto__img--email{
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+        }
     }
     .contacto__consulta{
         color: map-get($color, color-principal);
