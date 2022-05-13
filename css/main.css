@@ -400,9 +400,8 @@
       font-family: museosans-500;
       font-size: 20px; }
   .nosotros__main .vivienda__imagen {
-    width: fit-content;
-    height: auto;
-    margin-left: fit-content;
+    width: auto;
+    height: 100%;
     margin-top: -3px; }
   @media only screen and (max-width: 1024px) {
     .nosotros__main .vivienda__titulo {
@@ -414,7 +413,7 @@
       font-size: 24.73px;
       border-bottom: 4px solid;
       width: fit-content;
-      margin-top: 10%;
+      margin-top: 9%;
       margin-left: 10%; }
     .nosotros__main .vivienda__text1 {
       font-size: 34px;
@@ -424,9 +423,8 @@
       font-size: 20px;
       margin-top: 10%;
       margin-left: 10%;
-      margin-bottom: 10%; }
+      margin-bottom: 6%; }
     .nosotros__main .vivienda__imagen {
-      width: fit-content;
       height: 100%;
       margin-top: -1px; } }
   @media only screen and (max-width: 375px) {
