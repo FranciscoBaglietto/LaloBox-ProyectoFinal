@@ -144,16 +144,28 @@
             .footer__titulo-formulario{
                 margin-left: 21%;
             }
+            .secciones__footer--link{
+
+                .footer__lista{
+
+                    .footer__lista-links{
+                        margin-bottom: 4%;
+
+                    }
+
+                }
+
+            }
 
         }
 
     }
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 390px) {
 
         .secciones__footer{
 
             .footer__titulo-formulario{
-                margin-left: 31%;
+                margin-left: 37%;
             }
             .secciones__footer--link{
 

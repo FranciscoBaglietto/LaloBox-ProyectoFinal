@@ -589,9 +589,11 @@
       margin-left: 27%; } }
   @media only screen and (max-width: 768px) {
     .footer .secciones__footer .footer__titulo-formulario {
-      margin-left: 21%; } }
-  @media only screen and (max-width: 375px) {
+      margin-left: 21%; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+      margin-bottom: 4%; } }
+  @media only screen and (max-width: 390px) {
     .footer .secciones__footer .footer__titulo-formulario {
-      margin-left: 31%; }
+      margin-left: 37%; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
       margin-bottom: 4%; } }
