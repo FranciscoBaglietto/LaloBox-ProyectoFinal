@@ -80,7 +80,7 @@
     }
 
     .vivienda__imagen{
-        width: fit-content;
+        width: 100%;
         height: auto;
         margin-top: -3px;
         
@@ -98,6 +98,11 @@
         .vivienda__text2{
             margin-top: 50px;
             margin-bottom: 30px;
+        }
+        .vivienda__imagen{
+            width: 37rem;
+
+            
         }
 
 
@@ -129,7 +134,7 @@
         }
  
         .vivienda__imagen{
-           
+            width: 37rem;
             margin-top: -1px;
             
         }
@@ -165,7 +170,7 @@
             margin-bottom: 10%;
         }
         .vivienda__imagen{
-            width: fit-content;
+            width: 100%;
             height: 100%;
             margin-top: 10%;
         }
@@ -201,7 +206,7 @@
             margin-bottom: 10%;
         }
         .vivienda__imagen{
-            width: fit-content;
+            width: 100%;
             height: 100%;
             margin-top: 10%;
             

@@ -403,7 +403,7 @@
       font-family: museosans-500;
       font-size: 20px; }
   .nosotros__main .vivienda__imagen {
-    width: fit-content;
+    width: 100%;
     height: auto;
     margin-top: -3px; }
   @media only screen and (max-width: 1024px) {
@@ -413,7 +413,9 @@
       margin-top: 50px; }
     .nosotros__main .vivienda__text2 {
       margin-top: 50px;
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; }
+    .nosotros__main .vivienda__imagen {
+      width: 37rem; } }
   @media only screen and (max-width: 768px) {
     .nosotros__main .vivienda__titulo {
       font-size: 24.73px;
@@ -435,6 +437,7 @@
       margin-left: 10%;
       margin-bottom: 6%; }
     .nosotros__main .vivienda__imagen {
+      width: 37rem;
       margin-top: -1px; } }
   @media only screen and (max-width: 375px) {
     .nosotros__main .vivienda__titulo {
@@ -458,7 +461,7 @@
       margin-left: 6%;
       margin-bottom: 10%; }
     .nosotros__main .vivienda__imagen {
-      width: fit-content;
+      width: 100%;
       height: 100%;
       margin-top: 10%; } }
   @media only screen and (max-width: 320px) {
@@ -483,7 +486,7 @@
       margin-left: 6%;
       margin-bottom: 10%; }
     .nosotros__main .vivienda__imagen {
-      width: fit-content;
+      width: 100%;
       height: 100%;
       margin-top: 10%; } }
 
