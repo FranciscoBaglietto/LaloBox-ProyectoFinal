@@ -17,13 +17,15 @@
         font-size: 40px;
         margin-top: 10%;
         margin-left: 13%;
-
-        .viviendas__text1--span{
-            font-family: museosans-700italic;
-            
-        }
+        margin-bottom: -10px;
 
     }
+    .vivienda__text1-2do{
+        font-family: museosans-700italic;
+        margin-left: 13%;
+        font-size: 35px;
+    }
+ 
 
     .vivienda__text2{
         font-family: museosans_100;
@@ -78,8 +80,8 @@
     }
 
     .vivienda__imagen{
-        width: auto;
-        height: 100%;
+        width: fit-content;
+        height: auto;
         margin-top: -3px;
         
     }
@@ -90,8 +92,12 @@
             margin-top: 5%;
         }
         .vivienda__text1{
-            margin-top: 5.6%;
+            margin-top: 50px;
  
+        }
+        .vivienda__text2{
+            margin-top: 50px;
+            margin-bottom: 30px;
         }
 
 
@@ -109,8 +115,11 @@
             font-size: 34px;
             margin-top: 20%;
             margin-left: 5%;
-            
-    
+        }
+        .vivienda__text1-2do{
+            font-family: museosans-700italic;
+            margin-left: 6%;
+            font-size: 30px;
         }
         .vivienda__text2{
             font-size: 20px;
@@ -120,7 +129,7 @@
         }
  
         .vivienda__imagen{
-            height: 100%;
+           
             margin-top: -1px;
             
         }
@@ -143,7 +152,11 @@
             margin-top: 20%;
             margin-left: 5%;
             text-align: center;
-    
+        }
+        .vivienda__text1-2do{
+            font-family: museosans-700italic;
+            margin-left: 7%;
+            font-size: 35px;
         }
         .vivienda__text2{
             font-size: 20px;
@@ -155,7 +168,6 @@
             width: fit-content;
             height: 100%;
             margin-top: 10%;
-            
         }
 
 
@@ -171,11 +183,16 @@
             margin-left: 10%;
         }
         .vivienda__text1{
-            font-size: 34px;
+            font-size: 29px;
             margin-top: 20%;
             margin-left: 5%;
             text-align: center;
     
+        }
+        .vivienda__text1-2do{
+            font-family: museosans-700italic;
+            margin-left: 7%;
+            font-size: 25px;
         }
         .vivienda__text2{
             font-size: 20px;

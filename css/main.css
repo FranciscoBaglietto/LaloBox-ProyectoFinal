@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: museosans-700italic;
-  src: url("../../tipografias/Museo700-Regular (1).otf"); }
+  src: url("../../tipografias/MuseoSans-700Italic.otf"); }
 
 @font-face {
   font-family: museosans-500;
@@ -364,9 +364,12 @@
     font-family: jersey_m54;
     font-size: 40px;
     margin-top: 10%;
-    margin-left: 13%; }
-    .nosotros__main .vivienda__text1 .viviendas__text1--span {
-      font-family: museosans-700italic; }
+    margin-left: 13%;
+    margin-bottom: -10px; }
+  .nosotros__main .vivienda__text1-2do {
+    font-family: museosans-700italic;
+    margin-left: 13%;
+    font-size: 35px; }
   .nosotros__main .vivienda__text2 {
     font-family: museosans_100;
     font-size: 20px;
@@ -400,14 +403,17 @@
       font-family: museosans-500;
       font-size: 20px; }
   .nosotros__main .vivienda__imagen {
-    width: auto;
-    height: 100%;
+    width: fit-content;
+    height: auto;
     margin-top: -3px; }
   @media only screen and (max-width: 1024px) {
     .nosotros__main .vivienda__titulo {
       margin-top: 5%; }
     .nosotros__main .vivienda__text1 {
-      margin-top: 5.6%; } }
+      margin-top: 50px; }
+    .nosotros__main .vivienda__text2 {
+      margin-top: 50px;
+      margin-bottom: 30px; } }
   @media only screen and (max-width: 768px) {
     .nosotros__main .vivienda__titulo {
       font-size: 24.73px;
@@ -419,13 +425,16 @@
       font-size: 34px;
       margin-top: 20%;
       margin-left: 5%; }
+    .nosotros__main .vivienda__text1-2do {
+      font-family: museosans-700italic;
+      margin-left: 6%;
+      font-size: 30px; }
     .nosotros__main .vivienda__text2 {
       font-size: 20px;
       margin-top: 10%;
       margin-left: 10%;
       margin-bottom: 6%; }
     .nosotros__main .vivienda__imagen {
-      height: 100%;
       margin-top: -1px; } }
   @media only screen and (max-width: 375px) {
     .nosotros__main .vivienda__titulo {
@@ -439,6 +448,10 @@
       margin-top: 20%;
       margin-left: 5%;
       text-align: center; }
+    .nosotros__main .vivienda__text1-2do {
+      font-family: museosans-700italic;
+      margin-left: 7%;
+      font-size: 35px; }
     .nosotros__main .vivienda__text2 {
       font-size: 20px;
       margin-top: 10%;
@@ -456,10 +469,14 @@
       margin-top: 10%;
       margin-left: 10%; }
     .nosotros__main .vivienda__text1 {
-      font-size: 34px;
+      font-size: 29px;
       margin-top: 20%;
       margin-left: 5%;
       text-align: center; }
+    .nosotros__main .vivienda__text1-2do {
+      font-family: museosans-700italic;
+      margin-left: 7%;
+      font-size: 25px; }
     .nosotros__main .vivienda__text2 {
       font-size: 20px;
       margin-top: 10%;
@@ -601,8 +618,8 @@
       margin-left: 21%; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
       margin-bottom: 4%; } }
-  @media only screen and (max-width: 390px) {
+  @media only screen and (max-width: 375px) {
     .footer .secciones__footer .footer__titulo-formulario {
-      margin-left: 37%; }
+      margin-left: 33%; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
       margin-bottom: 4%; } }
