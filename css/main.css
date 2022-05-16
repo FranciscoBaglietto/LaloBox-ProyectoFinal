@@ -226,15 +226,62 @@
       margin-left: 10%;
       margin-top: 6%; } }
   @media only screen and (max-width: 1024px) {
-    .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
-      font-size: 18px;
-      margin-left: 10%;
-      margin-top: 6%; } }
+    .main__nosotros .nosotros__contenedor .nosotros__titulo {
+      margin-left: 8%; }
+      .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
+        font-size: 18px;
+        margin-left: 8%;
+        margin-top: 100px;
+        margin-bottom: 0px; }
+    .main__nosotros .nosotros__contenedor .contenedor__compromiso {
+      gap: 8%; }
+      .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__compromiso {
+        margin-left: -18px; }
+        .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__compromiso .nosotros__imagen--compromiso {
+          width: 3.5rem;
+          height: 3.5rem; }
+      .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__calidad .nosotros__imagen--calidad {
+        width: 3.5rem;
+        height: 3.5rem; }
+    .main__nosotros .nosotros__contenedor .contenedor__fabrica {
+      gap: 9%; }
+      .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__fabrica {
+        margin-top: 0px; }
+        .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__fabrica .nosotros__imagen--fabrica {
+          width: 3.5rem;
+          height: 3.5rem; }
+      .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__entrega {
+        margin-top: 0px; }
+        .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__entrega .nosotros__imagen--entrega {
+          width: 3.5rem;
+          height: 3.5rem; } }
   @media only screen and (max-width: 768px) {
     .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
-      font-size: 20px;
-      margin-left: 10%;
-      margin-top: 5%; } }
+      font-size: 18px;
+      margin-left: 20%;
+      margin-top: 15%; }
+    .main__nosotros .nosotros__contenedor .contenedor__compromiso {
+      gap: 8%; }
+      .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__compromiso {
+        margin-left: 0px; }
+        .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__compromiso .nosotros__imagen--compromiso {
+          width: 3.5rem;
+          height: 3.5rem; }
+      .main__nosotros .nosotros__contenedor .contenedor__compromiso .nosotros__calidad .nosotros__imagen--calidad {
+        width: 3.5rem;
+        height: 3.5rem; }
+    .main__nosotros .nosotros__contenedor .contenedor__fabrica {
+      gap: 9%; }
+      .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__fabrica {
+        margin-top: 0px; }
+        .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__fabrica .nosotros__imagen--fabrica {
+          width: 3.5rem;
+          height: 3.5rem; }
+      .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__entrega {
+        margin-top: 0px; }
+        .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__entrega .nosotros__imagen--entrega {
+          width: 3.5rem;
+          height: 3.5rem; } }
   @media only screen and (max-width: 390px) {
     .main__nosotros .nosotros__contenedor .nosotros__titulo--texto {
       font-size: 20px;
