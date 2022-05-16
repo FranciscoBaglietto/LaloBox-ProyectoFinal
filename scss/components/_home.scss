@@ -29,6 +29,19 @@
         font-family: jersey_m54;
         padding-bottom: 40px;
         text-shadow: -2px 0px 4px black;
+        position: relative;
+        
+        
+    }
+    .hr__text2{
+        background-color: map-get($color, color-secundario);
+        height: 20px;
+        display: block;
+        width: 52rem;
+        opacity: 1;
+        position: absolute;
+        left: 19rem;
+        top: 37rem;
     }
 
     .inicio__texto3{
