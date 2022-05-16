@@ -4,23 +4,26 @@
 
 
     .secciones__footer{
+        
 
         .secciones__footer--contacto{
             @extend %secciones-margin;
-
+            
             
             .footer__titulo-contacto{
-                margin-left: 25%;
+                margin-left: 15%;
                 color: map-get($color, color-secundario);
                 font-family: museosans_900;
                 font-size: 20px;
                 border-bottom: 1px solid;
                 width: fit-content;
+                opacity: 0.8;
 
             }
         
             .contacto__ubicacion{
                 margin-left: 15%;
+                opacity: 0.6;
 
                 .icono__ubicacion{
                     @include iconostamaño (20px, 24px)
@@ -36,6 +39,7 @@
 
             .contacto__telefono{
                 margin-left: 15%;
+                opacity: 0.6;
 
                 .icono__telefono{
                     @include iconostamaño (24px, 24px)
@@ -49,6 +53,7 @@
             }
             .contacto__mail{
                 margin-left: 15%;
+                opacity: 0.6;
 
                 .icono__mail{
                     @include iconostamaño (24px, 20px)
@@ -63,6 +68,7 @@
 
             .redessociales{
                 margin-left: 14%;
+                opacity: 0.6;
 
                 .icono__redes{
                     @include iconostamaño (24px, 24px);
@@ -72,48 +78,55 @@
         }
 
         .footer__titulo-enlaces{
-            margin-left: 25%;
+            margin-left: 15%;
             color: map-get($color, color-secundario);
             font-family: museosans_900;
             font-size: 20px;
             border-bottom: 1px solid;
             width: fit-content;
+            opacity: 0.8;
         }
 
         .secciones__footer--link{
             @extend %secciones-margin;
-           
+            
 
             .footer__lista{
                 list-style: none;
+                margin-left: 30px;
                 
                 .footer__lista-links{
                     margin-bottom: 3px;
+                    margin-left: 40px;
                     font-size: 18px;
+                    opacity: 0.6;
                 }
 
                 .footer__link{
                     text-decoration: none;
                     color: map-get($color, color-principal);
-                    margin-left: 30%;
                     margin-top: 10px;
                 }
                 
             }
         }
         .footer__titulo-formulario{
-            margin-left: 35%;
+            margin-left: 28%;
             color: map-get($color, color-secundario);
             font-family: museosans_900;
             font-size: 20px;
             border-bottom: 1px solid;
             width: fit-content;
+            opacity: 0.8;
+            
             
         }
+        
 
         .secciones__footer--formulario{
             @extend %secciones-margin;
             text-align: center;
+            
 
             .form__text{
                 color: map-get($color, color-principal);
@@ -129,12 +142,23 @@
     @media only screen and (max-width: 1024px) {
 
         .secciones__footer{
+            .secciones__footer--link{
+                .footer__lista{
+
+                    .footer__lista-links{
+                        margin-left: 20px;
+                    }
+
+                }
+
+            }
+   
 
             .footer__titulo-formulario{
-                margin-left: 27%;
+                margin-left: 20%;
             }
-
         }
+        
 
     }
     @media only screen and (max-width: 768px) {
@@ -142,15 +166,16 @@
         .secciones__footer{
 
             .footer__titulo-formulario{
-                margin-left: 21%;
+                margin-left: 8%;
             }
             .secciones__footer--link{
 
                 .footer__lista{
+                    
 
                     .footer__lista-links{
                         margin-bottom: 4%;
-
+                        
                     }
 
                 }
@@ -164,12 +189,31 @@
 
         .secciones__footer{
 
+            .footer__titulo-contacto{
+                margin-left: 1%;
+            }
+            .secciones__footer--link{
+                .footer__lista{
+                    .footer__lista-links{
+                        margin-left: 1%;
+                    }
+
+                }
+            }
+
             .footer__titulo-formulario{
-                margin-left: 33%;
+                margin-left: 15%;
+
+                .formulario__footer{
+                    .formulario__footer--nombre{
+                        display: inline-block;
+                    }
+                }
             }
             .secciones__footer--link{
 
                 .footer__lista{
+                    margin-left: 5.5%;
 
                     .footer__lista-links{
                         margin-bottom: 4%;

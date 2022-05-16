@@ -546,14 +546,16 @@
 .footer {
   background-color: black; }
   .footer .secciones__footer .secciones__footer--contacto .footer__titulo-contacto {
-    margin-left: 25%;
+    margin-left: 15%;
     color: #FECF07;
     font-family: museosans_900;
     font-size: 20px;
     border-bottom: 1px solid;
-    width: fit-content; }
+    width: fit-content;
+    opacity: 0.8; }
   .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion {
-    margin-left: 15%; }
+    margin-left: 15%;
+    opacity: 0.6; }
     .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .icono__ubicacion {
       width: 20px;
       height: 24px; }
@@ -561,7 +563,8 @@
       color: #F6F6F6;
       margin-left: 10px; }
   .footer .secciones__footer .secciones__footer--contacto .contacto__telefono {
-    margin-left: 15%; }
+    margin-left: 15%;
+    opacity: 0.6; }
     .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .icono__telefono {
       width: 24px;
       height: 24px; }
@@ -569,7 +572,8 @@
       color: #F6F6F6;
       margin-left: 10px; }
   .footer .secciones__footer .secciones__footer--contacto .contacto__mail {
-    margin-left: 15%; }
+    margin-left: 15%;
+    opacity: 0.6; }
     .footer .secciones__footer .secciones__footer--contacto .contacto__mail .icono__mail {
       width: 24px;
       height: 20px; }
@@ -577,35 +581,40 @@
       color: #F6F6F6;
       margin-left: 10px; }
   .footer .secciones__footer .secciones__footer--contacto .redessociales {
-    margin-left: 14%; }
+    margin-left: 14%;
+    opacity: 0.6; }
     .footer .secciones__footer .secciones__footer--contacto .redessociales .icono__redes {
       width: 24px;
       height: 24px;
       margin-right: 5px; }
   .footer .secciones__footer .footer__titulo-enlaces {
-    margin-left: 25%;
+    margin-left: 15%;
     color: #FECF07;
     font-family: museosans_900;
     font-size: 20px;
     border-bottom: 1px solid;
-    width: fit-content; }
+    width: fit-content;
+    opacity: 0.8; }
   .footer .secciones__footer .secciones__footer--link .footer__lista {
-    list-style: none; }
+    list-style: none;
+    margin-left: 30px; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
       margin-bottom: 3px;
-      font-size: 18px; }
+      margin-left: 40px;
+      font-size: 18px;
+      opacity: 0.6; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__link {
       text-decoration: none;
       color: #F6F6F6;
-      margin-left: 30%;
       margin-top: 10px; }
   .footer .secciones__footer .footer__titulo-formulario {
-    margin-left: 35%;
+    margin-left: 28%;
     color: #FECF07;
     font-family: museosans_900;
     font-size: 20px;
     border-bottom: 1px solid;
-    width: fit-content; }
+    width: fit-content;
+    opacity: 0.8; }
   .footer .secciones__footer .secciones__footer--formulario {
     text-align: center; }
     .footer .secciones__footer .secciones__footer--formulario .form__text {
@@ -614,15 +623,25 @@
     .footer .secciones__footer .secciones__footer--formulario .form__boton {
       margin: 5px 0px; }
   @media only screen and (max-width: 1024px) {
+    .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+      margin-left: 20px; }
     .footer .secciones__footer .footer__titulo-formulario {
-      margin-left: 27%; } }
+      margin-left: 20%; } }
   @media only screen and (max-width: 768px) {
     .footer .secciones__footer .footer__titulo-formulario {
-      margin-left: 21%; }
+      margin-left: 8%; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
       margin-bottom: 4%; } }
   @media only screen and (max-width: 375px) {
-    .footer .secciones__footer .footer__titulo-formulario {
-      margin-left: 33%; }
+    .footer .secciones__footer .footer__titulo-contacto {
+      margin-left: 1%; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
-      margin-bottom: 4%; } }
+      margin-left: 1%; }
+    .footer .secciones__footer .footer__titulo-formulario {
+      margin-left: 15%; }
+      .footer .secciones__footer .footer__titulo-formulario .formulario__footer .formulario__footer--nombre {
+        display: inline-block; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista {
+      margin-left: 5.5%; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+        margin-bottom: 4%; } }
