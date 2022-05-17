@@ -100,8 +100,7 @@
             margin-bottom: 30px;
         }
         .vivienda__imagen{
-            width: 37rem;
-
+            width: auto;
             
         }
 
@@ -134,8 +133,10 @@
         }
  
         .vivienda__imagen{
-            width: 37rem;
-            margin-top: -1px;
+            width: 100%;
+            height: 100%;
+            margin-top: 12%;
+            
             
         }
 
@@ -143,7 +144,7 @@
 
 
     }
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 391) {
 
         .vivienda__titulo{
             font-size: 24.73px;
@@ -172,7 +173,7 @@
         .vivienda__imagen{
             width: 100%;
             height: 100%;
-            margin-top: 10%;
+            margin-top: 15%;
         }
 
 
