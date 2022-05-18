@@ -97,7 +97,7 @@
                 
                 .footer__lista-links{
                     margin-bottom: 3px;
-                    margin-left: 40px;
+                    margin-left: 0px;
                     font-size: 18px;
                     opacity: 0.6;
                 }
@@ -144,9 +144,10 @@
         .secciones__footer{
             .secciones__footer--link{
                 .footer__lista{
+                    margin-left: 11px;
 
                     .footer__lista-links{
-                        margin-left: 20px;
+                        margin-left: 0px;
                     }
 
                 }
@@ -171,7 +172,7 @@
             .secciones__footer--link{
 
                 .footer__lista{
-                    
+                    margin-left: 0px;
 
                     .footer__lista-links{
                         margin-bottom: 4%;

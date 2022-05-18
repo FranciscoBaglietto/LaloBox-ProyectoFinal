@@ -9,20 +9,20 @@
         border-bottom: 4px solid;
         width: fit-content;
         margin-top: 10%;
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     .vivienda__text1{
         font-family: jersey_m54;
         font-size: 40px;
         margin-top: 10%;
-        margin-left: 13%;
+        margin-left: 15%;
         margin-bottom: -10px;
 
     }
     .vivienda__text1-2do{
         font-family: museosans-700italic;
-        margin-left: 13%;
+        margin-left: 15%;
         font-size: 35px;
     }
  
@@ -31,7 +31,7 @@
         font-family: museosans_100;
         font-size: 20px;
         margin-top: 3%;
-        margin-left: 13%;
+        margin-left: 15%;
     }
 
     .contenedor__metros{
@@ -112,32 +112,40 @@
             font-size: 24.73px;
             border-bottom: 4px solid;
             width: fit-content;
-            margin-top: 9%;
+            margin-top: 5%;
             margin-left: 10%;
         }
         .vivienda__text1{
-            font-size: 34px;
-            margin-top: 20%;
-            margin-left: 5%;
+            font-size: 30px;
+            margin-top: 10%;
+            margin-left: 10%;
         }
         .vivienda__text1-2do{
             font-family: museosans-700italic;
-            margin-left: 6%;
-            font-size: 30px;
+            margin-left: 10%;
+            font-size: 25px;
         }
         .vivienda__text2{
-            font-size: 20px;
+            font-size: 15px;
             margin-top: 10%;
             margin-left: 10%;
-            margin-bottom: 6%;
+            margin-bottom: 3%;
         }
  
         .vivienda__imagen{
             width: 100%;
             height: 100%;
-            margin-top: 12%;
+            margin-top: 0px;
             
-            
+        }
+        .contenedor__metros{
+            margin-left: 7%;
+        }
+        .contenedor__equipado{
+            margin-left: 7%;
+        }
+        .contenedor__financiado{
+            margin-left: 7%;
         }
 
 
@@ -186,7 +194,7 @@
             border-bottom: 4px solid;
             width: fit-content;
             margin-top: 10%;
-            margin-left: 10%;
+            margin-left: 7%;
         }
         .vivienda__text1{
             font-size: 29px;
@@ -211,6 +219,15 @@
             height: 100%;
             margin-top: 10%;
             
+        }
+        .contenedor__metros{
+            margin-left: 5%;
+        }
+        .contenedor__equipado{
+            margin-left: 5%;
+        }
+        .contenedor__financiado{
+            margin-left: 5%;
         }
 
 

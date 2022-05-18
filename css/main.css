@@ -118,7 +118,7 @@
   @media only screen and (max-width: 390px) {
     .main__inicio .inicio__texto1 {
       font-size: 30px;
-      margin: 13rem 0rem 1.5rem 0rem; }
+      margin: 12rem 0rem 1.5rem 0rem; }
     .main__inicio .inicio__texto2 {
       font-size: 40px;
       padding-bottom: 40px; } }
@@ -333,7 +333,7 @@
     border-bottom: 4px solid;
     width: fit-content;
     margin-top: 10%;
-    margin-left: 10%; }
+    margin-left: 13%; }
   .main__modelos .modelos__contenedor .modelos__text1 {
     font-family: jersey_m54;
     font-size: 45px;
@@ -369,7 +369,7 @@
     .main__modelos .modelos__contenedor .modelos__text1 {
       font-size: 35px;
       margin-top: 25%;
-      margin-left: 9%; }
+      margin-left: 13%; }
     .main__modelos .modelos__contenedor .modelos__text2 {
       font-size: 24px;
       margin-top: 15%;
@@ -382,7 +382,7 @@
     .main__modelos .modelos__contenedor .modelos__text1 {
       font-size: 35px;
       margin-top: 20%;
-      margin-left: 9%; }
+      margin-left: 12%; }
     .main__modelos .modelos__contenedor .modelos__text2 {
       font-size: 24px;
       margin-top: 10%;
@@ -395,7 +395,7 @@
     .main__modelos .modelos__contenedor .modelos__text1 {
       font-size: 35px;
       margin-top: 20%;
-      margin-left: 9%; }
+      margin-left: 12%; }
     .main__modelos .modelos__contenedor .modelos__text2 {
       font-size: 24px;
       margin-top: 10%;
@@ -423,22 +423,22 @@
     border-bottom: 4px solid;
     width: fit-content;
     margin-top: 10%;
-    margin-left: 10%; }
+    margin-left: 15%; }
   .nosotros__main .vivienda__text1 {
     font-family: jersey_m54;
     font-size: 40px;
     margin-top: 10%;
-    margin-left: 13%;
+    margin-left: 15%;
     margin-bottom: -10px; }
   .nosotros__main .vivienda__text1-2do {
     font-family: museosans-700italic;
-    margin-left: 13%;
+    margin-left: 15%;
     font-size: 35px; }
   .nosotros__main .vivienda__text2 {
     font-family: museosans_100;
     font-size: 20px;
     margin-top: 3%;
-    margin-left: 13%; }
+    margin-left: 15%; }
   .nosotros__main .contenedor__metros {
     margin-left: 13%; }
     .nosotros__main .contenedor__metros .imagen__marcador {
@@ -485,25 +485,31 @@
       font-size: 24.73px;
       border-bottom: 4px solid;
       width: fit-content;
-      margin-top: 9%;
+      margin-top: 5%;
       margin-left: 10%; }
     .nosotros__main .vivienda__text1 {
-      font-size: 34px;
-      margin-top: 20%;
-      margin-left: 5%; }
+      font-size: 30px;
+      margin-top: 10%;
+      margin-left: 10%; }
     .nosotros__main .vivienda__text1-2do {
       font-family: museosans-700italic;
-      margin-left: 6%;
-      font-size: 30px; }
+      margin-left: 10%;
+      font-size: 25px; }
     .nosotros__main .vivienda__text2 {
-      font-size: 20px;
+      font-size: 15px;
       margin-top: 10%;
       margin-left: 10%;
-      margin-bottom: 6%; }
+      margin-bottom: 3%; }
     .nosotros__main .vivienda__imagen {
       width: 100%;
       height: 100%;
-      margin-top: 12%; } }
+      margin-top: 0px; }
+    .nosotros__main .contenedor__metros {
+      margin-left: 7%; }
+    .nosotros__main .contenedor__equipado {
+      margin-left: 7%; }
+    .nosotros__main .contenedor__financiado {
+      margin-left: 7%; } }
   @media only screen and (max-width: 391) {
     .nosotros__main .vivienda__titulo {
       font-size: 24.73px;
@@ -535,7 +541,7 @@
       border-bottom: 4px solid;
       width: fit-content;
       margin-top: 10%;
-      margin-left: 10%; }
+      margin-left: 7%; }
     .nosotros__main .vivienda__text1 {
       font-size: 29px;
       margin-top: 20%;
@@ -553,7 +559,13 @@
     .nosotros__main .vivienda__imagen {
       width: 100%;
       height: 100%;
-      margin-top: 10%; } }
+      margin-top: 10%; }
+    .nosotros__main .contenedor__metros {
+      margin-left: 5%; }
+    .nosotros__main .contenedor__equipado {
+      margin-left: 5%; }
+    .nosotros__main .contenedor__financiado {
+      margin-left: 5%; } }
 
 .main__contacto {
   background-color: black;
@@ -665,7 +677,7 @@
     margin-left: 30px; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
       margin-bottom: 3px;
-      margin-left: 40px;
+      margin-left: 0px;
       font-size: 18px;
       opacity: 0.6; }
     .footer .secciones__footer .secciones__footer--link .footer__lista .footer__link {
@@ -688,15 +700,19 @@
     .footer .secciones__footer .secciones__footer--formulario .form__boton {
       margin: 5px 0px; }
   @media only screen and (max-width: 1024px) {
-    .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
-      margin-left: 20px; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista {
+      margin-left: 11px; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+        margin-left: 0px; }
     .footer .secciones__footer .footer__titulo-formulario {
       margin-left: 20%; } }
   @media only screen and (max-width: 768px) {
     .footer .secciones__footer .footer__titulo-formulario {
       margin-left: 8%; }
-    .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
-      margin-bottom: 4%; } }
+    .footer .secciones__footer .secciones__footer--link .footer__lista {
+      margin-left: 0px; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+        margin-bottom: 4%; } }
   @media only screen and (max-width: 390px) {
     .footer .secciones__footer .footer__titulo-contacto {
       margin-left: 1%; }

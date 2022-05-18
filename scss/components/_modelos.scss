@@ -10,7 +10,7 @@
             border-bottom: 4px solid;
             width: fit-content;
             margin-top: 10%;
-            margin-left: 10%;
+            margin-left: 13%;
         }
 
         .modelos__text1{
@@ -59,16 +59,12 @@
 
     }
 
-    @media only screen and (max-width: 1199px) {
 
-
-
-
-    }
 
     @media only screen and (max-width: 1024px) {
 
         .modelos__contenedor{
+
             .modelos__text1{
                 margin-top: 20%;
                 margin-bottom: 9% 
@@ -83,10 +79,11 @@
     @media only screen and (max-width: 768px) {
         
         .modelos__contenedor{
+
             .modelos__text1{
                 font-size: 35px;
                 margin-top: 25%;
-                margin-left: 9%;
+                margin-left: 13%;
             }
             .modelos__text2{
                 font-size: 24px;
@@ -110,7 +107,7 @@
             .modelos__text1{
                 font-size: 35px;
                 margin-top: 20%;
-                margin-left: 9%;
+                margin-left: 12%;
             }
             .modelos__text2{
                 font-size: 24px;
@@ -135,7 +132,7 @@
             .modelos__text1{
                 font-size: 35px;
                 margin-top: 20%;
-                margin-left: 9%;
+                margin-left: 12%;
             }
             .modelos__text2{
                 font-size: 24px;
