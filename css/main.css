@@ -606,19 +606,52 @@
     border-bottom: 4px solid #FECF07;
     width: fit-content;
     margin-top: 5%;
-    margin-bottom: 2%; }
+    margin-bottom: 2%;
+    margin-left: 26%; }
   .main__contacto .formulario__contacto {
-    margin-left: 30px;
+    margin-left: 25%;
     margin-right: 30px; }
     .main__contacto .formulario__contacto .form-label {
       color: #F6F6F6;
       font-size: 20px; }
     .main__contacto .formulario__contacto .form-control {
-      width: 15rem; }
-      .main__contacto .formulario__contacto .form-control .textarea {
-        height: fit-content; }
+      width: 70%;
+      height: 2.5rem; }
+    .main__contacto .formulario__contacto .textarea {
+      height: fit-content; }
     .main__contacto .formulario__contacto .form__boton-contacto {
-      margin-left: 45px; }
+      margin-left: 25%;
+      width: 100px;
+      height: 30px;
+      border-radius: 5px; }
+  @media only screen and (max-width: 1024px) {
+    .main__contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 22%; } }
+  @media only screen and (max-width: 768px) {
+    .main__contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 19%; } }
+  @media only screen and (max-width: 390px) {
+    .main__contacto .contacto__consulta {
+      margin-top: 15%;
+      margin-bottom: 10%;
+      margin-left: 10%; }
+    .main__contacto .formulario__contacto {
+      margin-left: 9%;
+      margin-right: 0px; }
+      .main__contacto .formulario__contacto .form-label {
+        color: #F6F6F6;
+        font-size: 20px; }
+      .main__contacto .formulario__contacto .form-control {
+        width: 90%; }
+      .main__contacto .formulario__contacto .form__boton-contacto {
+        margin-left: 22%;
+        margin-bottom: 15%; } }
+  @media only screen and (max-width: 375px) {
+    .main__contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 20%; } }
+  @media only screen and (max-width: 320px) {
+    .main__contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 18%; } }
 
 .footer {
   background-color: black; }
