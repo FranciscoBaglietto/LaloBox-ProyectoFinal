@@ -74,7 +74,7 @@
   .main__inicio .inicio__texto1 {
     font-size: 35px;
     color: #F6F6F6;
-    margin: 4.5rem 0rem 3rem 0rem;
+    margin: 5rem 0rem 1rem 0rem;
     font-family: jersey_m54;
     text-shadow: -2px 0px 4px black; }
   .main__inicio .inicio__texto2 {
@@ -106,7 +106,7 @@
       height: 100%; }
     .main__inicio .inicio__texto1 {
       font-size: 30px;
-      margin: 9rem 0rem 3rem 0rem; } }
+      margin: 12rem 0rem 1rem 0rem; } }
   @media only screen and (max-width: 768px) {
     .main__inicio .sticker {
       width: 25rem;
@@ -114,11 +114,11 @@
       height: 100%; }
     .main__inicio .inicio__texto1 {
       font-size: 30px;
-      margin: 9rem 0rem 3rem 0rem; } }
-  @media only screen and (max-width: 375px) {
+      margin: 10rem 0rem 1rem 0rem; } }
+  @media only screen and (max-width: 390px) {
     .main__inicio .inicio__texto1 {
       font-size: 30px;
-      margin: 10rem 0rem 3rem 0rem; }
+      margin: 13rem 0rem 1.5rem 0rem; }
     .main__inicio .inicio__texto2 {
       font-size: 40px;
       padding-bottom: 40px; } }
@@ -129,7 +129,7 @@
       height: 100%; }
     .main__inicio .inicio__texto1 {
       font-size: 30px;
-      margin: 13rem 0rem 3rem 0rem; }
+      margin: 16rem 0rem 1rem 0rem; }
     .main__inicio .inicio__texto2 {
       font-size: 40px;
       padding-bottom: 40px; } }
