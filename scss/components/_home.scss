@@ -1,5 +1,6 @@
 .main__inicio{
-    background-image: url("../imagen/imageninicio2.jpg");
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../imagen/imageninicio2.jpg");
     height: 50rem;
     object-fit:cover;
     object-position: center;
