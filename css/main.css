@@ -616,14 +616,17 @@
       font-size: 20px; }
     .main__contacto .formulario__contacto .form-control {
       width: 70%;
-      height: 2.5rem; }
+      height: 2.5rem;
+      opacity: 0.9; }
     .main__contacto .formulario__contacto .textarea {
       height: fit-content; }
     .main__contacto .formulario__contacto .form__boton-contacto {
       margin-left: 25%;
+      margin-bottom: 10%;
       width: 100px;
       height: 30px;
-      border-radius: 5px; }
+      border-radius: 8px;
+      opacity: 0.9; }
   @media only screen and (max-width: 1024px) {
     .main__contacto .formulario__contacto .form__boton-contacto {
       margin-left: 22%; } }
