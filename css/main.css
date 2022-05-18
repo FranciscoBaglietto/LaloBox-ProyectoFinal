@@ -320,7 +320,9 @@
       margin-left: 5%; }
     .main__nosotros .nosotros__contenedor .contenedor__fabrica {
       gap: 12%;
-      margin-bottom: 10%; } }
+      margin-bottom: 10%; }
+      .main__nosotros .nosotros__contenedor .contenedor__fabrica .nosotros__entrega {
+        margin-left: 5px; } }
 
 .main__modelos {
   background-color: black; }
